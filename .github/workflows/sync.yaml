@@ -25,4 +25,4 @@ jobs:
 
     - name: synching
       run: |
-        sh ./scripys/sync.sh
+        sh ./scripts/sync.sh
