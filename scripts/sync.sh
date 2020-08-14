@@ -41,6 +41,5 @@ sync_image(){
 gcr_sync_image  cadvisor/cadvisor v0.36.0
 # latest stable
 gcr_sync_image  cadvisor/cadvisor $(curl -sL https://api.github.com/repos/google/cadvisor/releases/latest | jq .tag_name -r)
-gcr_sync_image  cadvisor/cadvisor latest
 
 gcr_sync_image  google-containers/pause latest
