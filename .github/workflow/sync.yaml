@@ -1,0 +1,28 @@
+name: Sync
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+  # schedule:
+  #   - cron: "*/30 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        # ref: ${{ github.head_ref }}
+        ref: master
+
+    - name: login
+      run: |
+        docker log -u ${{ secrets.ALI_REGISTRY_USER }} -p ${{ secrets.ALI_REGISTRY_PASSWORD }} registry.cn-shanghai.aliyuncs.com
+        docker log -u ${{ secrets.ALI_REGISTRY_USER }} -p ${{ secrets.ALI_REGISTRY_PASSWORD }} registry.cn-hongkong.aliyuncs.com
+
+    - name: synching
+      run: |
+        sh ./scripys/sync.sh
