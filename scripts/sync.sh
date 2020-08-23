@@ -12,7 +12,7 @@ sync_image(){
 
   local src=${name%%/*}
   name=${name##$src/}
-  if [ src = "k8s.gcr.io" ]; then
+  if [ $src = "k8s.gcr.io" ]; then
     src="gcr.io"
     name="google-containers/${name}"
   fi
@@ -22,8 +22,9 @@ sync_image(){
   local src_repo=$src/$name:$ver
   local target_repo=$target/$target_name:$ver
 
-  local sync=
+  echo "Checking $1:$2 -> $target_repo"
 
+  local sync=
   if [ "$ver" = "latest" ]; then
     sync=1
   else
@@ -34,8 +35,16 @@ sync_image(){
   
   if [ -n "$sync" ]; then 
     _sync_image $src_repo $target_repo
+    echo -n "update ${1%%/*}:$ver ." >> message
+    echo "| $1 | $2 | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
+
+    # as alternative to k8s.gcr.io
+    [[ "$name" =~ "google-containers/" ]] && {
+      docker tag $target_repo $target/${name##*/}:$ver
+    }
   fi
 }
+
 _sync_image(){
   echo Syncing $1 to $2
 

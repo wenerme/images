@@ -1,7 +1,7 @@
-# Docker Image Mirros
+# Docker Mirror Image
 
 - registry.cn-hongkong.aliyuncs.com/cmi
-  - Container Image Mirror
+  - Docker Mirror Image
 
 | source                           | mirror                                                          |
 | -------------------------------- | --------------------------------------------------------------- |
