@@ -4,8 +4,8 @@ set -e
 : ${MIRROR_REGISTRY:=registry.cn-shanghai.aliyuncs.com}
 
 sync_image(){
-  # cim - container image mirror
-  local target=$MIRROR_REGISTRY/cim
+  # cmi - container mirror image
+  local target=$MIRROR_REGISTRY/cmi
 
   local name=$1
   local ver=$2
