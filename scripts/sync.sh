@@ -62,7 +62,12 @@ sync_image k8s.gcr.io/defaultbackend-amd64 1.5
 
 # quay.io/kubernetes-ingress-controller/nginx-ingress-controller
 sync_image quay.io/kubernetes-ingress-controller/nginx-ingress-controller 0.33.0
-sync_image gcr.io/k8s-artifacts-prod/ingress-nginx/controller v0.34.1
+sync_image us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller v0.34.1
+sync_image gcr.io/google_containers/defaultbackend 1.0
+
+sync_image quay.io/jetstack/cert-manager-controller v0.16.1
+sync_image quay.io/jetstack/cert-manager-webhook v0.16.1
+sync_image quay.io/jetstack/cert-manager-cainjector v0.16.1
 
 sync_image docker.io/jettech/kube-webhook-certgen v1.2.2
 
