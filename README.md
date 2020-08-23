@@ -1,6 +1,8 @@
 # Docker Image Mirros
 
-| source  | mirror                                      |
-| ------- | ------------------------------------------- |
-| gcr.io  | registry.cn-hongkong.aliyuncs.com/gcr-sync  |
-| quay.io | registry.cn-hongkong.aliyuncs.com/quay-sync |
+- registry.cn-hongkong.aliyuncs.com/cim
+  - Container Image Mirror
+
+| source                           | mirror                                                          |
+| -------------------------------- | --------------------------------------------------------------- |
+| gcr.io/cadvisor/cadvisor:v0.36.0 | registry.cn-shanghai.aliyuncs.com/cim/cadvisor_cadvisor:v0.36.0 |
