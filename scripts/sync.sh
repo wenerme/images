@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-: ${MIRROR_REGISTRY:=registry.cn-shanghai.aliyuncs.com}
+# : ${MIRROR_REGISTRY:=registry.cn-shanghai.aliyuncs.com}
+: ${MIRROR_REGISTRY:=registry.cn-hongkong.aliyuncs.com}
 
 sync_image(){
   # cmi - container mirror image
@@ -36,7 +37,7 @@ sync_image(){
   if [ -n "$sync" ]; then 
     _sync_image $src_repo $target_repo
     echo -n "update ${1%%/*}:$ver ." >> message
-    echo "| $1 | $2 | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
+    echo "| $1 | $2 | $target_repo | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
 
     # as alternative to k8s.gcr.io
     [[ "$name" =~ "google-containers/" ]] && {
