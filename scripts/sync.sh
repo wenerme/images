@@ -80,8 +80,16 @@ sync_image quay.io/jetstack/cert-manager-controller $ver
 sync_image quay.io/jetstack/cert-manager-webhook $ver
 sync_image quay.io/jetstack/cert-manager-cainjector $ver
 
+ver=$(github-latest-version thanos-io/thanos)
+sync_image quay.io/thanos-io/thanos $ver
+
 sync_image docker.io/jettech/kube-webhook-certgen v1.2.2
 
+
+
+
+
+#
 cat README.stub.md > README.md
 echo >> README.md
 cat  CHANGELOG.md >> README.md
