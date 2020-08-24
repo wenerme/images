@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ex
 
 # : ${MIRROR_REGISTRY:=registry.cn-shanghai.aliyuncs.com}
 : ${MIRROR_REGISTRY:=registry.cn-hongkong.aliyuncs.com}
@@ -36,13 +36,15 @@ sync_image(){
   
   if [ -n "$sync" ]; then 
     _sync_image $src_repo $target_repo
-    echo -n "update ${1%%/*}:$ver ." >> message
-    echo "| $1 | $2 | $target_repo | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
+    [ $ver == "latest" ] || {
+      echo -n "update ${1%%/*}:$ver ." >> message
+      echo "| $1 | $2 | $target_repo | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
+    }
 
     # as alternative to k8s.gcr.io
     [[ "$name" =~ "google-containers/" ]] && {
       docker tag $target_repo $target/${name##*/}:$ver
-    }
+    } || true
   fi
 }
 
@@ -61,7 +63,11 @@ github-latest-version(){
 # latest stable
 sync_image gcr.io/cadvisor/cadvisor $(github-latest-version google/cadvisor)
 #
-# sync_image gcr.io/google-containers/pause latest
+sync_image gcr.io/google-containers/pause 3.0
+sync_image gcr.io/google-containers/pause 3.1
+sync_image gcr.io/google-containers/pause 3.2
+sync_image gcr.io/google-containers/pause latest
+
 sync_image k8s.gcr.io/defaultbackend-amd64 1.5
 
 # quay.io/kubernetes-ingress-controller/nginx-ingress-controller
