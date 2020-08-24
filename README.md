@@ -28,7 +28,7 @@
 | quay.io/jetstack/cert-manager-webhook                 | v0.16.1 | jetstack_cert-manager-webhook               | -                   |
 | quay.io/jetstack/cert-manager-cainjector              | v0.16.1 | jetstack_cert-manager-cainjector            | -                   |
 | docker.io/jettech/kube-webhook-certgen                | v1.2.2  | jettech_kube-webhook-certgen                | -                   |
-| gcr.io/google-containers/pause | 3.0 | registry.cn-hongkong.aliyuncs.com/cmi/google-containers_pause:3.0 | 2020-08-24 06:15:31 |
-| gcr.io/google-containers/pause | 3.1 | registry.cn-hongkong.aliyuncs.com/cmi/google-containers_pause:3.1 | 2020-08-24 06:15:49 |
-| gcr.io/google-containers/pause | 3.2 | registry.cn-hongkong.aliyuncs.com/cmi/google-containers_pause:3.2 | 2020-08-24 06:16:08 |
+| gcr.io/google-containers/pause | 3.0 | google-containers_pause:3.0 | 2020-08-24 06:15:31 |
+| gcr.io/google-containers/pause | 3.1 | google-containers_pause:3.1 | 2020-08-24 06:15:49 |
+| gcr.io/google-containers/pause | 3.2 | google-containers_pause:3.2 | 2020-08-24 06:16:08 |
 

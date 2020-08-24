@@ -38,7 +38,7 @@ sync_image(){
     _sync_image $src_repo $target_repo
     [ $ver == "latest" ] || {
       echo -n "update ${1%%/*}:$ver ." >> message
-      echo "| $1 | $2 | $target_repo | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
+      echo "| $1 | $2 | $target_name | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
     }
 
     # as alternative to k8s.gcr.io
