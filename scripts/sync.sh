@@ -54,9 +54,12 @@ _sync_image(){
   docker push $2
 }
 
-sync_image gcr.io/cadvisor/cadvisor v0.36.0
+github-latest-version(){
+  curl -sL https://api.github.com/repos/$1/releases/latest | jq .tag_name -r
+}
+
 # latest stable
-sync_image gcr.io/cadvisor/cadvisor $(curl -sL https://api.github.com/repos/google/cadvisor/releases/latest | jq .tag_name -r)
+sync_image gcr.io/cadvisor/cadvisor $(github-latest-version google/cadvisor)
 #
 # sync_image gcr.io/google-containers/pause latest
 sync_image k8s.gcr.io/defaultbackend-amd64 1.5
@@ -66,9 +69,14 @@ sync_image quay.io/kubernetes-ingress-controller/nginx-ingress-controller 0.33.0
 sync_image us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller v0.34.1
 sync_image gcr.io/google_containers/defaultbackend 1.0
 
-sync_image quay.io/jetstack/cert-manager-controller v0.16.1
-sync_image quay.io/jetstack/cert-manager-webhook v0.16.1
-sync_image quay.io/jetstack/cert-manager-cainjector v0.16.1
+ver=$(github-latest-version jetstack/cert-manager)
+sync_image quay.io/jetstack/cert-manager-controller $ver
+sync_image quay.io/jetstack/cert-manager-webhook $ver
+sync_image quay.io/jetstack/cert-manager-cainjector $ver
 
 sync_image docker.io/jettech/kube-webhook-certgen v1.2.2
 
+cat README.stub.md > README.md
+echo >> README.md
+cat  CHANGELOG.md >> README.md
+echo >> README.md
