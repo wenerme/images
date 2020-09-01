@@ -71,9 +71,12 @@ sync_image gcr.io/google-containers/pause latest
 sync_image k8s.gcr.io/defaultbackend-amd64 1.5
 
 # quay.io/kubernetes-ingress-controller/nginx-ingress-controller
-sync_image quay.io/kubernetes-ingress-controller/nginx-ingress-controller 0.33.0
-sync_image us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller v0.34.1
+# sync_image quay.io/kubernetes-ingress-controller/nginx-ingress-controller 0.33.0
+# sync_image us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller v0.34.1
+sync_image k8s.gcr.io/ingress-nginx/controller v0.35.0
+
 sync_image gcr.io/google_containers/defaultbackend 1.0
+
 
 ver=$(github-latest-version jetstack/cert-manager)
 sync_image quay.io/jetstack/cert-manager-controller $ver
