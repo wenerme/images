@@ -13,10 +13,10 @@ sync_image(){
 
   local src=${name%%/*}
   name=${name##$src/}
-  if [ $src = "k8s.gcr.io" ]; then
-    src="gcr.io"
-    name="google-containers/${name}"
-  fi
+#  if [ $src = "k8s.gcr.io" ]; then
+#    src="gcr.io"
+#    name="google-containers/${name}"
+#  fi
 
   local target_name=${name//\//_}
 
@@ -40,11 +40,6 @@ sync_image(){
       echo -n "update ${1%%/*}:$ver ." >> message
       echo "| $1 | $2 | $target_name | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
     }
-
-    # as alternative to k8s.gcr.io
-    [[ "$name" =~ "google-containers/" ]] && {
-      docker tag $target_repo $target/${name##*/}:$ver
-    } || true
   fi
 }
 
