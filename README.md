@@ -33,4 +33,7 @@
 | gcr.io/google-containers/pause | 3.2 | google-containers_pause:3.2 | 2020-08-24 06:16:08 |
 | quay.io/thanos/thanos | v0.14.0 | thanos_thanos | 2020-08-25 10:03:32 |
 | k8s.gcr.io/ingress-nginx/controller | v0.35.0 | ingress-nginx_controller | 2020-09-01 17:41:57 |
+| quay.io/jetstack/cert-manager-controller | v1.0.0 | jetstack_cert-manager-controller | 2020-09-02 12:18:58 |
+| quay.io/jetstack/cert-manager-webhook | v1.0.0 | jetstack_cert-manager-webhook | 2020-09-02 12:19:23 |
+| quay.io/jetstack/cert-manager-cainjector | v1.0.0 | jetstack_cert-manager-cainjector | 2020-09-02 12:19:46 |
 
