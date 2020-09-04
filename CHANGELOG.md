@@ -22,3 +22,6 @@
 | gcr.io/linkerd-io/web | stable-2.8.1 | linkerd-io_web | 2020-09-04 22:43:25 |
 | gcr.io/linkerd-io/grafana | stable-2.8.1 | linkerd-io_grafana | 2020-09-04 22:43:30 |
 | gcr.io/linkerd-io/proxy-init | v1.3.3 | linkerd-io_proxy-init | 2020-09-04 22:44:35 |
+| quay.io/jetstack/cert-manager-controller | v1.0.1 | jetstack_cert-manager-controller | 2020-09-04 20:16:17 |
+| quay.io/jetstack/cert-manager-webhook | v1.0.1 | jetstack_cert-manager-webhook | 2020-09-04 20:16:38 |
+| quay.io/jetstack/cert-manager-cainjector | v1.0.1 | jetstack_cert-manager-cainjector | 2020-09-04 20:16:59 |
