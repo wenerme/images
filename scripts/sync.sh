@@ -34,11 +34,11 @@ sync-image quay.io/thanos/thanos $ver
 
 sync-image docker.io/jettech/kube-webhook-certgen v1.2.2
 
-# linkerd2
-# for i in proxy controller debug web grafana; do
-#   sync-image gcr.io/linkerd-io/$i stable-2.8.1
-# done
-# sync-image gcr.io/linkerd-io/proxy-init v1.3.3
+linkerd2
+for i in proxy controller debug web grafana cni-plugin; do
+  sync-image gcr.io/linkerd-io/$i stable-2.8.1
+done
+sync-image gcr.io/linkerd-io/proxy-init v1.3.3
 
 #
 cat README.stub.md > README.md
