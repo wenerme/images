@@ -26,3 +26,4 @@
 | quay.io/jetstack/cert-manager-webhook | v1.0.1 | jetstack_cert-manager-webhook | 2020-09-04 20:16:38 |
 | quay.io/jetstack/cert-manager-cainjector | v1.0.1 | jetstack_cert-manager-cainjector | 2020-09-04 20:16:59 |
 | gcr.io/linkerd-io/cni-plugin | stable-2.8.1 | linkerd-io_cni-plugin | 2020-09-05 18:10:13 |
+| quay.io/thanos/thanos | v0.15.0 | thanos_thanos | 2020-09-07 10:15:43 |
