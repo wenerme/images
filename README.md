@@ -55,4 +55,5 @@
 | quay.io/jetstack/cert-manager-webhook | v1.0.3 | jetstack_cert-manager-webhook | 2020-10-08 10:18:12 |
 | quay.io/jetstack/cert-manager-cainjector | v1.0.3 | jetstack_cert-manager-cainjector | 2020-10-08 10:18:34 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.0.3 | jetstack_cert-manager-acmesolver | 2020-10-08 10:18:54 |
+| quay.io/thanos/thanos | v0.15.0 | thanos_thanos | 2020-10-09 12:31:50 |
 
