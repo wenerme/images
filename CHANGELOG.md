@@ -37,3 +37,7 @@
 | quay.io/jetstack/cert-manager-acmesolver | v1.0.3 | jetstack_cert-manager-acmesolver | 2020-10-08 10:18:54 |
 | quay.io/thanos/thanos | v0.15.0 | thanos_thanos | 2020-10-09 12:31:50 |
 | quay.io/thanos/thanos | v0.16.0 | thanos_thanos | 2020-10-26 16:28:19 |
+| quay.io/jetstack/cert-manager-controller | v1.0.4 | jetstack_cert-manager-controller | 2020-10-29 16:28:25 |
+| quay.io/jetstack/cert-manager-webhook | v1.0.4 | jetstack_cert-manager-webhook | 2020-10-29 16:28:43 |
+| quay.io/jetstack/cert-manager-cainjector | v1.0.4 | jetstack_cert-manager-cainjector | 2020-10-29 16:29:02 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.0.4 | jetstack_cert-manager-acmesolver | 2020-10-29 16:29:20 |
