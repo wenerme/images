@@ -62,4 +62,6 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.0.4 | jetstack_cert-manager-cainjector | 2020-10-29 16:29:02 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.0.4 | jetstack_cert-manager-acmesolver | 2020-10-29 16:29:20 |
 | gcr.io/cadvisor/cadvisor | v0.37.0 | cadvisor_cadvisor | 2020-11-10 08:13:08 |
+| k8s.gcr.io/ingress-nginx/controller | v0.41.2 | ingress-nginx_controller | 2020-11-17 07:25:51 |
+| docker.io/jettech/kube-webhook-certgen | v1.5.0 | jettech_kube-webhook-certgen | 2020-11-17 07:26:30 |
 
