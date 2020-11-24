@@ -45,3 +45,7 @@
 | k8s.gcr.io/ingress-nginx/controller | v0.41.2 | ingress-nginx_controller | 2020-11-17 07:25:51 |
 | docker.io/jettech/kube-webhook-certgen | v1.5.0 | jettech_kube-webhook-certgen | 2020-11-17 07:26:30 |
 | quay.io/thanos/thanos | v0.17.0 | thanos_thanos | 2020-11-20 13:11:38 |
+| quay.io/jetstack/cert-manager-controller | v1.1.0 | jetstack_cert-manager-controller | 2020-11-24 18:14:47 |
+| quay.io/jetstack/cert-manager-webhook | v1.1.0 | jetstack_cert-manager-webhook | 2020-11-24 18:15:08 |
+| quay.io/jetstack/cert-manager-cainjector | v1.1.0 | jetstack_cert-manager-cainjector | 2020-11-24 18:15:28 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.1.0 | jetstack_cert-manager-acmesolver | 2020-11-24 18:15:48 |
