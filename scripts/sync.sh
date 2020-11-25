@@ -8,7 +8,9 @@ github-latest-version(){
 }
 
 # latest stable
+sync-image quay.io/keycloak/keycloak $(github-latest-version keycloak/keycloak)
 sync-image gcr.io/cadvisor/cadvisor $(github-latest-version google/cadvisor)
+
 #
 sync-image gcr.io/google-containers/pause 3.0
 sync-image gcr.io/google-containers/pause 3.1
