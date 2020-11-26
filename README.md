@@ -70,4 +70,5 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.1.0 | jetstack_cert-manager-cainjector | 2020-11-24 18:15:28 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.1.0 | jetstack_cert-manager-acmesolver | 2020-11-24 18:15:48 |
 | quay.io/keycloak/keycloak | 11.0.3 | keycloak_keycloak | 2020-11-25 12:00:19 |
+| quay.io/thanos/thanos | v0.17.1 | thanos_thanos | 2020-11-26 12:19:47 |
 
