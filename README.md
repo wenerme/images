@@ -72,4 +72,5 @@
 | quay.io/keycloak/keycloak | 11.0.3 | keycloak_keycloak | 2020-11-25 12:00:19 |
 | quay.io/thanos/thanos | v0.17.1 | thanos_thanos | 2020-11-26 12:19:47 |
 | quay.io/thanos/thanos | v0.17.2 | thanos_thanos | 2020-12-08 10:23:42 |
+| quay.io/jetstack/cert-manager-webhook | v1.1.0 | jetstack_cert-manager-webhook | 2020-12-13 16:26:42 |
 
