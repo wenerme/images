@@ -11,6 +11,11 @@ github-latest-version(){
 sync-image quay.io/keycloak/keycloak 11.0.3
 sync-image gcr.io/cadvisor/cadvisor $(github-latest-version google/cadvisor)
 
+sync-image gcr.io/kaniko-project/executor $(github-latest-version GoogleContainerTools/kaniko)
+sync-image gcr.io/kaniko-project/executor $(github-latest-version GoogleContainerTools/kaniko)-debug
+sync-image gcr.io/kaniko-project/executor debug
+sync-image gcr.io/kaniko-project/executor latest
+
 #
 sync-image gcr.io/google-containers/pause 3.0
 sync-image gcr.io/google-containers/pause 3.1
