@@ -53,3 +53,6 @@
 | quay.io/thanos/thanos | v0.17.1 | thanos_thanos | 2020-11-26 12:19:47 |
 | quay.io/thanos/thanos | v0.17.2 | thanos_thanos | 2020-12-08 10:23:42 |
 | quay.io/jetstack/cert-manager-webhook | v1.1.0 | jetstack_cert-manager-webhook | 2020-12-13 16:26:42 |
+| gcr.io/kaniko-project/executor | v1.3.0 | kaniko-project_executor | 2020-12-16 15:54:23 |
+| gcr.io/kaniko-project/executor | v1.3.0-debug | kaniko-project_executor | 2020-12-16 15:54:53 |
+| gcr.io/kaniko-project/executor | debug | kaniko-project_executor | 2020-12-16 15:55:04 |
