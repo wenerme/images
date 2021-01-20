@@ -27,6 +27,7 @@ sync-image k8s.gcr.io/defaultbackend-amd64 1.5
 # sync-image quay.io/kubernetes-ingress-controller/nginx-ingress-controller 0.33.0
 # sync-image us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller v0.34.1
 sync-image k8s.gcr.io/ingress-nginx/controller v0.41.2
+sync-image k8s.gcr.io/ingress-nginx/controller v0.43.0
 
 sync-image gcr.io/google_containers/defaultbackend 1.0
 
