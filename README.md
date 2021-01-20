@@ -77,4 +77,5 @@
 | gcr.io/kaniko-project/executor | v1.3.0-debug | kaniko-project_executor | 2020-12-16 15:54:53 |
 | gcr.io/kaniko-project/executor | debug | kaniko-project_executor | 2020-12-16 15:55:04 |
 | quay.io/keycloak/keycloak | 12.0.1 | keycloak_keycloak | 2021-01-15 14:16:40 |
+| k8s.gcr.io/ingress-nginx/controller | v0.43.0 | ingress-nginx_controller | 2021-01-20 15:11:45 |
 
