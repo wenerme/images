@@ -87,4 +87,5 @@
 | quay.io/jetstack/cert-manager-webhook | v1.1.1 | jetstack_cert-manager-webhook | 2021-02-16 18:20:15 |
 | quay.io/jetstack/cert-manager-cainjector | v1.1.1 | jetstack_cert-manager-cainjector | 2021-02-16 18:20:37 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.1.1 | jetstack_cert-manager-acmesolver | 2021-02-16 18:20:59 |
+| gcr.io/cadvisor/cadvisor | v0.37.5 | cadvisor_cadvisor | 2021-02-18 08:20:16 |
 
