@@ -89,4 +89,5 @@
 | quay.io/jetstack/cert-manager-acmesolver | v1.1.1 | jetstack_cert-manager-acmesolver | 2021-02-16 18:20:59 |
 | gcr.io/cadvisor/cadvisor | v0.37.5 | cadvisor_cadvisor | 2021-02-18 08:20:16 |
 | argoproj/argocd | v1.7.12 | argocd | 2021-02-19 15:35:25 |
+| argoproj/argocd | v1.8.4 | argocd | 2021-02-19 15:54:54 |
 
