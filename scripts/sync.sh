@@ -16,6 +16,9 @@ sync-image gcr.io/kaniko-project/executor $(github-latest-version GoogleContaine
 sync-image gcr.io/kaniko-project/executor debug
 sync-image gcr.io/kaniko-project/executor latest
 
+# argo
+sync-image argoproj/argocd $(github-latest-version argoproj/argocd)
+
 #
 sync-image gcr.io/google-containers/pause 3.0
 sync-image gcr.io/google-containers/pause 3.1
