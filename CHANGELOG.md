@@ -72,3 +72,4 @@
 | argoproj/argocd | v1.8.4 | argocd | 2021-02-19 15:54:54 |
 | argoproj/argocd | v1.8.5 | argocd | 2021-02-20 06:20:22 |
 | k8s.gcr.io/ingress-nginx/controller | v0.44.0 | ingress-nginx_controller | 2021-02-21 12:46:42 |
+| docker.io/jettech/kube-webhook-certgen | v1.5.1 | jettech_kube-webhook-certgen | 2021-02-21 13:48:30 |
