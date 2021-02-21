@@ -46,7 +46,8 @@ sync-image quay.io/jetstack/cert-manager-acmesolver $ver
 ver=$(github-latest-version thanos-io/thanos)
 sync-image quay.io/thanos/thanos $ver
 
-sync-image docker.io/jettech/kube-webhook-certgen v1.5.0
+# sync-image docker.io/jettech/kube-webhook-certgen v1.5.0
+sync-image docker.io/jettech/kube-webhook-certgen v1.5.1
 
 for i in proxy controller debug web grafana cni-plugin; do
   sync-image gcr.io/linkerd-io/$i stable-2.8.1
