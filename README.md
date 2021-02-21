@@ -91,4 +91,5 @@
 | argoproj/argocd | v1.7.12 | argocd | 2021-02-19 15:35:25 |
 | argoproj/argocd | v1.8.4 | argocd | 2021-02-19 15:54:54 |
 | argoproj/argocd | v1.8.5 | argocd | 2021-02-20 06:20:22 |
+| k8s.gcr.io/ingress-nginx/controller | v0.44.0 | ingress-nginx_controller | 2021-02-21 12:46:42 |
 
