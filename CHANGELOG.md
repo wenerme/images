@@ -73,3 +73,5 @@
 | argoproj/argocd | v1.8.5 | argocd | 2021-02-20 06:20:22 |
 | k8s.gcr.io/ingress-nginx/controller | v0.44.0 | ingress-nginx_controller | 2021-02-21 12:46:42 |
 | docker.io/jettech/kube-webhook-certgen | v1.5.1 | jettech_kube-webhook-certgen | 2021-02-21 13:48:30 |
+| gcr.io/kaniko-project/executor | v1.5.0 | kaniko-project_executor | 2021-02-23 06:33:07 |
+| gcr.io/kaniko-project/executor | v1.5.0-debug | kaniko-project_executor | 2021-02-23 06:34:00 |
