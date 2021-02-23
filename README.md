@@ -97,4 +97,5 @@
 | gcr.io/kaniko-project/executor | v1.5.0-debug | kaniko-project_executor | 2021-02-23 06:34:00 |
 | gcr.io/kaniko-project/executor | v1.5.1 | kaniko-project_executor | 2021-02-23 10:19:10 |
 | gcr.io/kaniko-project/executor | v1.5.1-debug | kaniko-project_executor | 2021-02-23 10:19:46 |
+| quay.io/keycloak/keycloak | 12.0.3 | keycloak_keycloak | 2021-02-23 13:23:09 |
 
