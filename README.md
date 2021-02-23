@@ -95,4 +95,6 @@
 | docker.io/jettech/kube-webhook-certgen | v1.5.1 | jettech_kube-webhook-certgen | 2021-02-21 13:48:30 |
 | gcr.io/kaniko-project/executor | v1.5.0 | kaniko-project_executor | 2021-02-23 06:33:07 |
 | gcr.io/kaniko-project/executor | v1.5.0-debug | kaniko-project_executor | 2021-02-23 06:34:00 |
+| gcr.io/kaniko-project/executor | v1.5.1 | kaniko-project_executor | 2021-02-23 10:19:10 |
+| gcr.io/kaniko-project/executor | v1.5.1-debug | kaniko-project_executor | 2021-02-23 10:19:46 |
 
