@@ -22,6 +22,9 @@ sync-image gcr.io/kaniko-project/executor latest
 sync-image argoproj/argocd $(github-latest-version argoproj/argo-cd)
 # sync-image argoproj/argocd v1.8.4
 
+sync-image ghcr.io/dexidp/dex $(github-latest-version dexidp/dex)
+
+
 
 ver=$(github-latest-version jetstack/cert-manager)
 sync-image quay.io/jetstack/cert-manager-controller $ver
