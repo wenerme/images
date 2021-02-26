@@ -80,3 +80,4 @@
 | quay.io/keycloak/keycloak | 12.0.3 | keycloak_keycloak | 2021-02-23 13:23:09 |
 | quay.io/oauth2-proxy/oauth2-proxy | v7.0.1 | oauth2-proxy_oauth2-proxy | 2021-02-24 09:18:11 |
 | ghcr.io/dexidp/dex | v2.27.0 | dexidp_dex | 2021-02-24 15:09:46 |
+| argoproj/argocd | v1.7.13 | argocd | 2021-02-26 18:20:43 |
