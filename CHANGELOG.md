@@ -82,3 +82,4 @@
 | ghcr.io/dexidp/dex | v2.27.0 | dexidp_dex | 2021-02-24 15:09:46 |
 | argoproj/argocd | v1.7.13 | argocd | 2021-02-26 18:20:43 |
 | argoproj/argocd | v1.8.6 | argocd | 2021-02-26 22:20:47 |
+| quay.io/keycloak/keycloak | 12.0.4 | keycloak_keycloak | 2021-03-01 10:50:39 |
