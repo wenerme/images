@@ -24,7 +24,7 @@ sync-image argoproj/argocd $(github-latest-version argoproj/argo-cd)
 
 sync-image ghcr.io/dexidp/dex $(github-latest-version dexidp/dex)
 
-sync-image quay.io/bitnami/sealed-secrets-controller $(bitnami-labs/sealed-secrets)
+sync-image quay.io/bitnami/sealed-secrets-controller $(github-latest-version bitnami-labs/sealed-secrets)
 
 ver=$(github-latest-version jetstack/cert-manager)
 sync-image quay.io/jetstack/cert-manager-controller $ver
