@@ -5,7 +5,23 @@
 
 > `gcr.io/google-containers/pause` -> `registry.cn-hongkong.aliyuncs.com/cmi/google-containers_pause`
 
-使用场景
+## 动机
+> Faster is always better.
+
+1. 部署失败
+
+当 helm 部署 ingress-nginx 发现卡在拉镜像 - 发现永远无法成功，因为镜像在 k8s.gcr.io
+
+2. 更新奇慢
+
+当更新 sealed-secret，发现用了半个小时，因为镜像在 quay.io。
+然后修改镜像为国内 quay.io 镜像, 发现依然奇慢无比 - 多半是因为现拉镜
+
+3. 测试奇慢
+
+本地使用 keycloak 测试登陆，镜像过大，即便通过镜像后的 docker.io 拉取也很慢。
+
+## 使用方式
 
 1. k8s - 修改 deployment 镜像
 2. helm - 修改 values 里的 repository
