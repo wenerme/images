@@ -84,3 +84,4 @@
 | argoproj/argocd | v1.8.6 | argocd | 2021-02-26 22:20:47 |
 | quay.io/keycloak/keycloak | 12.0.4 | keycloak_keycloak | 2021-03-01 10:50:39 |
 | argoproj/argocd | v1.8.7 | argocd | 2021-03-03 06:21:20 |
+| quay.io/bitnami/sealed-secrets-controller | v0.15.0 | bitnami_sealed-secrets-controller | 2021-03-03 13:17:37 |
