@@ -12,6 +12,8 @@
 
 当 helm 部署 ingress-nginx 发现卡在拉镜像 - 发现永远无法成功，因为镜像在 k8s.gcr.io
 
+> Back-off pulling image
+
 2. 更新奇慢
 
 当更新 sealed-secret，发现用了半个小时，因为镜像在 quay.io。
