@@ -86,3 +86,4 @@
 | argoproj/argocd | v1.8.7 | argocd | 2021-03-03 06:21:20 |
 | quay.io/bitnami/sealed-secrets-controller | v0.15.0 | bitnami_sealed-secrets-controller | 2021-03-03 13:17:37 |
 | argoproj/argocd | v1.7.14 | argocd | 2021-03-03 20:20:20 |
+| docker.io/argoproj/argocd | v1.7.14 | argoproj_argocd | 2021-03-04 14:20:15 |
