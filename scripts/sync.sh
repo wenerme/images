@@ -19,9 +19,12 @@ sync-image gcr.io/kaniko-project/executor debug
 sync-image gcr.io/kaniko-project/executor latest
 
 # argo
-sync-image argoproj/argocd $(github-latest-version argoproj/argo-cd)
-# sync-image argoproj/argocd v1.8.4
+sync-image docker.io/argoproj/argocli $(github-latest-version argoproj/argo)
+sync-image docker.io/argoproj/workflow-controller $(github-latest-version argoproj/argo)
 
+# argo-cd
+sync-image docker.io/argoproj/argocd $(github-latest-version argoproj/argo-cd)
+# argocd use dex
 sync-image ghcr.io/dexidp/dex $(github-latest-version dexidp/dex)
 
 sync-image quay.io/bitnami/sealed-secrets-controller $(github-latest-version bitnami-labs/sealed-secrets)
