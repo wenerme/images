@@ -21,6 +21,7 @@ sync-image gcr.io/kaniko-project/executor latest
 # argo
 sync-image docker.io/argoproj/argocli $(github-latest-version argoproj/argo)
 sync-image docker.io/argoproj/workflow-controller $(github-latest-version argoproj/argo)
+sync-image docker.io/argoproj/argoexec $(github-latest-version argoproj/argo)
 
 # argo-cd
 sync-image docker.io/argoproj/argocd $(github-latest-version argoproj/argo-cd)
