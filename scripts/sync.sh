@@ -18,6 +18,9 @@ sync-image gcr.io/kaniko-project/executor $(github-latest-version GoogleContaine
 sync-image gcr.io/kaniko-project/executor debug
 sync-image gcr.io/kaniko-project/executor latest
 
+#
+sync-image registry.opensource.zalan.do/acid/postgres-operator $(github-latest-version zalando/postgres-operator)
+
 # argo
 sync-image docker.io/argoproj/argocli $(github-latest-version argoproj/argo)
 sync-image docker.io/argoproj/workflow-controller $(github-latest-version argoproj/argo)
