@@ -88,3 +88,4 @@
 | argoproj/argocd | v1.7.14 | argocd | 2021-03-03 20:20:20 |
 | docker.io/argoproj/argocd | v1.7.14 | argoproj_argocd | 2021-03-04 14:20:15 |
 | docker.io/argoproj/argoexec | v2.12.9 | argoproj_argoexec | 2021-03-04 15:22:14 |
+| registry.opensource.zalan.do/acid/postgres-operator | v1.6.1 | acid_postgres-operator | 2021-03-05 14:41:52 |
