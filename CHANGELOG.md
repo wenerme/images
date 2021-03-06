@@ -91,3 +91,5 @@
 | registry.opensource.zalan.do/acid/postgres-operator | v1.6.1 | acid_postgres-operator | 2021-03-05 14:41:52 |
 | registry.opensource.zalan.do/acid/spilo-13 | 2.0-p5 | acid_spilo-13 | 2021-03-06 08:52:51 |
 | registry.opensource.zalan.do/acid/spilo-13 | 2.0-p4 | acid_spilo-13 | 2021-03-06 08:54:04 |
+| registry.opensource.zalan.do/acid/logical-backup | v1.6.1 | acid_logical-backup | 2021-03-06 09:04:06 |
+| registry.opensource.zalan.do/acid/pgbouncer | master-14 | acid_pgbouncer | 2021-03-06 09:04:39 |
