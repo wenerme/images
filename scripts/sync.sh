@@ -21,6 +21,8 @@ sync-image gcr.io/kaniko-project/executor latest
 # postgres-operator
 sync-image registry.opensource.zalan.do/acid/postgres-operator $(github-latest-version zalando/postgres-operator)
 sync-image registry.opensource.zalan.do/acid/logical-backup $(github-latest-version zalando/postgres-operator)
+sync-image registry.opensource.zalan.do/acid/postgres-operator-ui $(github-latest-version zalando/postgres-operator)
+
 sync-image registry.opensource.zalan.do/acid/spilo-13 $(github-latest-version zalando/spilo)
 sync-image registry.opensource.zalan.do/acid/pgbouncer master-14
 
