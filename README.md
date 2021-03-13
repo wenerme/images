@@ -148,4 +148,5 @@
 | docker.io/argoproj/argocli | v2.12.10 | argoproj_argocli | 2021-03-09 00:44:38 |
 | docker.io/argoproj/workflow-controller | v2.12.10 | argoproj_workflow-controller | 2021-03-09 00:45:02 |
 | docker.io/argoproj/argoexec | v2.12.10 | argoproj_argoexec | 2021-03-09 00:45:42 |
+| ghcr.io/dexidp/dex | v2.28.0 | dexidp_dex | 2021-03-13 00:44:44 |
 
