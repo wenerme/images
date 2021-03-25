@@ -150,4 +150,5 @@
 | docker.io/argoproj/argoexec | v2.12.10 | argoproj_argoexec | 2021-03-09 00:45:42 |
 | ghcr.io/dexidp/dex | v2.28.0 | dexidp_dex | 2021-03-13 00:44:44 |
 | ghcr.io/dexidp/dex | v2.28.1 | dexidp_dex | 2021-03-20 20:20:22 |
+| quay.io/oauth2-proxy/oauth2-proxy | v7.1.0 | oauth2-proxy_oauth2-proxy | 2021-03-25 18:35:30 |
 
