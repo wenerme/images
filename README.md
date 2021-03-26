@@ -151,4 +151,8 @@
 | ghcr.io/dexidp/dex | v2.28.0 | dexidp_dex | 2021-03-13 00:44:44 |
 | ghcr.io/dexidp/dex | v2.28.1 | dexidp_dex | 2021-03-20 20:20:22 |
 | quay.io/oauth2-proxy/oauth2-proxy | v7.1.0 | oauth2-proxy_oauth2-proxy | 2021-03-25 18:35:30 |
+| quay.io/jetstack/cert-manager-controller | v1.3.0-alpha.0 | jetstack_cert-manager-controller | 2021-03-26 14:22:34 |
+| quay.io/jetstack/cert-manager-webhook | v1.3.0-alpha.0 | jetstack_cert-manager-webhook | 2021-03-26 14:22:56 |
+| quay.io/jetstack/cert-manager-cainjector | v1.3.0-alpha.0 | jetstack_cert-manager-cainjector | 2021-03-26 14:23:19 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.3.0-alpha.0 | jetstack_cert-manager-acmesolver | 2021-03-26 14:23:40 |
 
