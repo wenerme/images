@@ -104,3 +104,4 @@
 | quay.io/jetstack/cert-manager-webhook | v1.3.0-alpha.0 | jetstack_cert-manager-webhook | 2021-03-26 14:22:56 |
 | quay.io/jetstack/cert-manager-cainjector | v1.3.0-alpha.0 | jetstack_cert-manager-cainjector | 2021-03-26 14:23:19 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.3.0-alpha.0 | jetstack_cert-manager-acmesolver | 2021-03-26 14:23:40 |
+| quay.io/oauth2-proxy/oauth2-proxy | v7.1.1 | oauth2-proxy_oauth2-proxy | 2021-03-29 18:28:23 |
