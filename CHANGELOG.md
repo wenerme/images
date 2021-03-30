@@ -106,3 +106,6 @@
 | quay.io/jetstack/cert-manager-acmesolver | v1.3.0-alpha.0 | jetstack_cert-manager-acmesolver | 2021-03-26 14:23:40 |
 | quay.io/oauth2-proxy/oauth2-proxy | v7.1.1 | oauth2-proxy_oauth2-proxy | 2021-03-29 18:28:23 |
 | registry.opensource.zalan.do/acid/spilo-13 | 2.0-p6 | acid_spilo-13 | 2021-03-30 16:39:40 |
+| docker.io/argoproj/argocli | v3.0.0 | argoproj_argocli | 2021-03-30 22:24:23 |
+| docker.io/argoproj/workflow-controller | v3.0.0 | argoproj_workflow-controller | 2021-03-30 22:24:46 |
+| docker.io/argoproj/argoexec | v3.0.0 | argoproj_argoexec | 2021-03-30 22:25:27 |
