@@ -105,3 +105,4 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.3.0-alpha.0 | jetstack_cert-manager-cainjector | 2021-03-26 14:23:19 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.3.0-alpha.0 | jetstack_cert-manager-acmesolver | 2021-03-26 14:23:40 |
 | quay.io/oauth2-proxy/oauth2-proxy | v7.1.1 | oauth2-proxy_oauth2-proxy | 2021-03-29 18:28:23 |
+| registry.opensource.zalan.do/acid/spilo-13 | 2.0-p6 | acid_spilo-13 | 2021-03-30 16:39:40 |
