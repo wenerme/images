@@ -111,3 +111,4 @@
 | docker.io/argoproj/argoexec | v3.0.0 | argoproj_argoexec | 2021-03-30 22:25:27 |
 | gcr.io/kaniko-project/executor | v1.5.2 | kaniko-project_executor | 2021-03-31 00:55:46 |
 | gcr.io/kaniko-project/executor | v1.5.2-debug | kaniko-project_executor | 2021-03-31 00:56:18 |
+| quay.io/thanos/thanos | v0.19.0 | thanos_thanos | 2021-03-31 16:39:15 |
