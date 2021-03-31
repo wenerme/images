@@ -109,3 +109,5 @@
 | docker.io/argoproj/argocli | v3.0.0 | argoproj_argocli | 2021-03-30 22:24:23 |
 | docker.io/argoproj/workflow-controller | v3.0.0 | argoproj_workflow-controller | 2021-03-30 22:24:46 |
 | docker.io/argoproj/argoexec | v3.0.0 | argoproj_argoexec | 2021-03-30 22:25:27 |
+| gcr.io/kaniko-project/executor | v1.5.2 | kaniko-project_executor | 2021-03-31 00:55:46 |
+| gcr.io/kaniko-project/executor | v1.5.2-debug | kaniko-project_executor | 2021-03-31 00:56:18 |
