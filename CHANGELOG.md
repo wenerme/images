@@ -112,3 +112,6 @@
 | gcr.io/kaniko-project/executor | v1.5.2 | kaniko-project_executor | 2021-03-31 00:55:46 |
 | gcr.io/kaniko-project/executor | v1.5.2-debug | kaniko-project_executor | 2021-03-31 00:56:18 |
 | quay.io/thanos/thanos | v0.19.0 | thanos_thanos | 2021-03-31 16:39:15 |
+| registry.opensource.zalan.do/acid/postgres-operator | v1.6.2 | acid_postgres-operator | 2021-04-01 12:31:10 |
+| registry.opensource.zalan.do/acid/logical-backup | v1.6.2 | acid_logical-backup | 2021-04-01 12:31:57 |
+| registry.opensource.zalan.do/acid/postgres-operator-ui | v1.6.2 | acid_postgres-operator-ui | 2021-04-01 12:33:02 |
