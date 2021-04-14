@@ -178,4 +178,8 @@
 | quay.io/jetstack/cert-manager-webhook | v1.3.0 | jetstack_cert-manager-webhook | 2021-04-08 12:32:19 |
 | quay.io/jetstack/cert-manager-cainjector | v1.3.0 | jetstack_cert-manager-cainjector | 2021-04-08 12:32:40 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.3.0 | jetstack_cert-manager-acmesolver | 2021-04-08 12:33:00 |
+| quay.io/jetstack/cert-manager-controller | v1.3.1 | jetstack_cert-manager-controller | 2021-04-14 12:30:24 |
+| quay.io/jetstack/cert-manager-webhook | v1.3.1 | jetstack_cert-manager-webhook | 2021-04-14 12:30:44 |
+| quay.io/jetstack/cert-manager-cainjector | v1.3.1 | jetstack_cert-manager-cainjector | 2021-04-14 12:31:03 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.3.1 | jetstack_cert-manager-acmesolver | 2021-04-14 12:31:22 |
 
