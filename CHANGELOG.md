@@ -132,3 +132,6 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.3.1 | jetstack_cert-manager-cainjector | 2021-04-14 12:31:03 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.3.1 | jetstack_cert-manager-acmesolver | 2021-04-14 12:31:22 |
 | docker.io/argoproj/argocd | v2.0.1 | argoproj_argocd | 2021-04-16 01:02:15 |
+| docker.io/argoproj/argocli | v3.0.2 | argoproj_argocli | 2021-04-20 16:38:25 |
+| docker.io/argoproj/workflow-controller | v3.0.2 | argoproj_workflow-controller | 2021-04-20 16:38:47 |
+| docker.io/argoproj/argoexec | v3.0.2 | argoproj_argoexec | 2021-04-20 16:39:26 |
