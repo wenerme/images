@@ -187,4 +187,6 @@
 | docker.io/argoproj/workflow-controller | v3.0.2 | argoproj_workflow-controller | 2021-04-20 16:38:47 |
 | docker.io/argoproj/argoexec | v3.0.2 | argoproj_argoexec | 2021-04-20 16:39:26 |
 | registry.opensource.zalan.do/acid/pgbouncer | master-16 | acid_pgbouncer | 2021-04-21 13:59:05 |
+| gcr.io/kaniko-project/executor | v1.6.0 | kaniko-project_executor | 2021-04-26 20:21:45 |
+| gcr.io/kaniko-project/executor | v1.6.0-debug | kaniko-project_executor | 2021-04-26 20:22:19 |
 
