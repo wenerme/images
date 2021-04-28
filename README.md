@@ -189,4 +189,5 @@
 | registry.opensource.zalan.do/acid/pgbouncer | master-16 | acid_pgbouncer | 2021-04-21 13:59:05 |
 | gcr.io/kaniko-project/executor | v1.6.0 | kaniko-project_executor | 2021-04-26 20:21:45 |
 | gcr.io/kaniko-project/executor | v1.6.0-debug | kaniko-project_executor | 2021-04-26 20:22:19 |
+| quay.io/thanos/thanos | v0.20.0 | thanos_thanos | 2021-04-28 14:22:56 |
 
