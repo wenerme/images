@@ -193,4 +193,5 @@
 | quay.io/oauth2-proxy/oauth2-proxy | v7.1.3 | oauth2-proxy_oauth2-proxy | 2021-04-28 18:34:55 |
 | quay.io/thanos/thanos | v0.20.1 | thanos_thanos | 2021-04-30 14:21:17 |
 | quay.io/keycloak/keycloak | 13.0.0 | keycloak_keycloak | 2021-05-06 14:21:38 |
+| quay.io/bitnami/sealed-secrets-controller | v0.16.0 | bitnami_sealed-secrets-controller | 2021-05-10 22:24:00 |
 
