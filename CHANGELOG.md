@@ -143,3 +143,6 @@
 | quay.io/thanos/thanos | v0.20.1 | thanos_thanos | 2021-04-30 14:21:17 |
 | quay.io/keycloak/keycloak | 13.0.0 | keycloak_keycloak | 2021-05-06 14:21:38 |
 | quay.io/bitnami/sealed-secrets-controller | v0.16.0 | bitnami_sealed-secrets-controller | 2021-05-10 22:24:00 |
+| docker.io/argoproj/argocli | v3.0.3 | argoproj_argocli | 2021-05-12 00:56:54 |
+| docker.io/argoproj/workflow-controller | v3.0.3 | argoproj_workflow-controller | 2021-05-12 00:57:17 |
+| docker.io/argoproj/argoexec | v3.0.3 | argoproj_argoexec | 2021-05-12 00:57:59 |
