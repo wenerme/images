@@ -61,6 +61,7 @@ sync-image quay.io/thanos/thanos $ver
 # sync-image k8s.gcr.io/ingress-nginx/controller v0.41.2
 # sync-image k8s.gcr.io/ingress-nginx/controller v0.43.0
 # sync-image k8s.gcr.io/ingress-nginx/controller v0.44.0
+sync-image k8s.gcr.io/ingress-nginx/controller v0.46.0
 
 # sync-image gcr.io/google_containers/defaultbackend 1.0
 
