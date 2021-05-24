@@ -203,4 +203,7 @@
 | docker.io/argoproj/argocd | v2.0.2 | argoproj_argocd | 2021-05-20 20:22:14 |
 | quay.io/thanos/thanos | v0.20.2 | thanos_thanos | 2021-05-21 10:23:38 |
 | k8s.gcr.io/ingress-nginx/controller | v0.46.0 | ingress-nginx_controller | 2021-05-23 10:32:00 |
+| docker.io/argoproj/argocli | v3.0.5 | argoproj_argocli | 2021-05-24 20:23:31 |
+| docker.io/argoproj/workflow-controller | v3.0.5 | argoproj_workflow-controller | 2021-05-24 20:23:55 |
+| docker.io/argoproj/argoexec | v3.0.5 | argoproj_argoexec | 2021-05-24 20:24:38 |
 
