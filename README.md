@@ -210,4 +210,7 @@
 | docker.io/argoproj/workflow-controller | v3.0.6 | argoproj_workflow-controller | 2021-05-25 01:05:38 |
 | docker.io/argoproj/argoexec | v3.0.6 | argoproj_argoexec | 2021-05-25 01:06:20 |
 | quay.io/keycloak/keycloak | 13.0.1 | keycloak_keycloak | 2021-05-25 10:30:12 |
+| docker.io/argoproj/argocli | v3.0.7 | argoproj_argocli | 2021-05-25 20:24:47 |
+| docker.io/argoproj/workflow-controller | v3.0.7 | argoproj_workflow-controller | 2021-05-25 20:25:13 |
+| docker.io/argoproj/argoexec | v3.0.7 | argoproj_argoexec | 2021-05-25 20:25:57 |
 
