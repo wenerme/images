@@ -163,3 +163,4 @@
 | docker.io/argoproj/workflow-controller | v3.0.7 | argoproj_workflow-controller | 2021-05-25 20:25:13 |
 | docker.io/argoproj/argoexec | v3.0.7 | argoproj_argoexec | 2021-05-25 20:25:57 |
 | registry.opensource.zalan.do/acid/spilo-13 | 2.0-p7 | acid_spilo-13 | 2021-05-26 08:37:17 |
+| docker.io/argoproj/argocd | v2.0.3 | argoproj_argocd | 2021-05-27 20:33:15 |
