@@ -215,4 +215,6 @@
 | docker.io/argoproj/argoexec | v3.0.7 | argoproj_argoexec | 2021-05-25 20:25:57 |
 | registry.opensource.zalan.do/acid/spilo-13 | 2.0-p7 | acid_spilo-13 | 2021-05-26 08:37:17 |
 | docker.io/argoproj/argocd | v2.0.3 | argoproj_argocd | 2021-05-27 20:33:15 |
+| registry.opensource.zalan.do/acid/logical-backup | v1.6.3 | acid_logical-backup | 2021-05-28 14:37:08 |
+| registry.opensource.zalan.do/acid/postgres-operator-ui | v1.6.3 | acid_postgres-operator-ui | 2021-05-28 14:38:15 |
 
