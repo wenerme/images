@@ -166,3 +166,4 @@
 | docker.io/argoproj/argocd | v2.0.3 | argoproj_argocd | 2021-05-27 20:33:15 |
 | registry.opensource.zalan.do/acid/logical-backup | v1.6.3 | acid_logical-backup | 2021-05-28 14:37:08 |
 | registry.opensource.zalan.do/acid/postgres-operator-ui | v1.6.3 | acid_postgres-operator-ui | 2021-05-28 14:38:15 |
+| quay.io/thanos/thanos | v0.21.0 | thanos_thanos | 2021-06-03 14:40:04 |
