@@ -168,3 +168,7 @@
 | registry.opensource.zalan.do/acid/postgres-operator-ui | v1.6.3 | acid_postgres-operator-ui | 2021-05-28 14:38:15 |
 | quay.io/thanos/thanos | v0.21.0 | thanos_thanos | 2021-06-03 14:40:04 |
 | quay.io/thanos/thanos | v0.21.1 | thanos_thanos | 2021-06-04 13:04:58 |
+| quay.io/jetstack/cert-manager-controller | v1.4.0 | jetstack_cert-manager-controller | 2021-06-15 14:16:37 |
+| quay.io/jetstack/cert-manager-webhook | v1.4.0 | jetstack_cert-manager-webhook | 2021-06-15 14:16:56 |
+| quay.io/jetstack/cert-manager-cainjector | v1.4.0 | jetstack_cert-manager-cainjector | 2021-06-15 14:17:14 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.4.0 | jetstack_cert-manager-acmesolver | 2021-06-15 14:17:32 |
