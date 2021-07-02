@@ -181,3 +181,4 @@
 | docker.io/argoproj/workflow-controller | v3.1.1 | argoproj_workflow-controller | 2021-06-28 22:17:57 |
 | docker.io/argoproj/argoexec | v3.1.1 | argoproj_argoexec | 2021-06-28 22:18:37 |
 | ghcr.io/dexidp/dex | v2.29.0 | dexidp_dex | 2021-06-29 16:27:24 |
+| quay.io/argocdapplicationset/argocd-applicationset | v0.1.0 | argocdapplicationset_argocd-applicationset | 2021-07-02 14:11:05 |
