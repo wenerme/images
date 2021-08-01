@@ -233,4 +233,13 @@
 | docker.io/argoproj/argoexec | v3.1.1 | argoproj_argoexec | 2021-06-28 22:18:37 |
 | ghcr.io/dexidp/dex | v2.29.0 | dexidp_dex | 2021-06-29 16:27:24 |
 | quay.io/argocdapplicationset/argocd-applicationset | v0.1.0 | argocdapplicationset_argocd-applicationset | 2021-07-02 14:11:05 |
+| docker.io/argoproj/argocli | v3.1.3 | argoproj_argocli | 2021-08-01 10:42:15 |
+| docker.io/argoproj/workflow-controller | v3.1.3 | argoproj_workflow-controller | 2021-08-01 10:42:36 |
+| docker.io/argoproj/argoexec | v3.1.3 | argoproj_argoexec | 2021-08-01 10:43:14 |
+| docker.io/argoproj/argocd | v2.0.5 | argoproj_argocd | 2021-08-01 10:44:27 |
+| quay.io/jetstack/cert-manager-controller | v1.4.1 | jetstack_cert-manager-controller | 2021-08-01 10:44:58 |
+| quay.io/jetstack/cert-manager-webhook | v1.4.1 | jetstack_cert-manager-webhook | 2021-08-01 10:45:17 |
+| quay.io/jetstack/cert-manager-cainjector | v1.4.1 | jetstack_cert-manager-cainjector | 2021-08-01 10:45:36 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.4.1 | jetstack_cert-manager-acmesolver | 2021-08-01 10:45:53 |
+| quay.io/thanos/thanos | v0.22.0 | thanos_thanos | 2021-08-01 10:46:13 |
 
