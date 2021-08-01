@@ -28,7 +28,7 @@ sync-image registry.opensource.zalan.do/acid/pgbouncer master-16
 
 
 # argo
-sync-image docker.io/argoproj/argocli $(github-latest-version argo-workflows)
+sync-image docker.io/argoproj/argocli $(github-latest-version argoproj/argo-workflows)
 sync-image docker.io/argoproj/workflow-controller $(github-latest-version argoproj/argo-workflows)
 sync-image docker.io/argoproj/argoexec $(github-latest-version argoproj/argo-workflows)
 
