@@ -26,6 +26,9 @@ sync-image registry.opensource.zalan.do/acid/postgres-operator-ui $(github-lates
 sync-image registry.opensource.zalan.do/acid/spilo-13 $(github-latest-version zalando/spilo)
 sync-image registry.opensource.zalan.do/acid/pgbouncer master-16
 
+# nfs
+ver=$(curl -sfL https://raw.githubusercontent.com/wenerme/charts/master/nfs-subdir-external-provisioner/Chart.yaml | grep appVersion | cut -d ':' -f 2 | sed 's/\s//g')
+sync-image k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner v$ver
 
 # argo
 sync-image docker.io/argoproj/argocli $(github-latest-version argoproj/argo-workflows)
