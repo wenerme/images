@@ -2,10 +2,9 @@
 set -ex
 
 source ./scripts/sync-image
+source ./scripts/github-latest-version
+source ./scripts/chart-app-version
 
-github-latest-version(){
-  curl -sL https://api.github.com/repos/$1/releases/latest | jq .tag_name -r
-}
 
 # latest stable
 sync-image quay.io/keycloak/keycloak $(github-latest-version keycloak/keycloak)
@@ -27,8 +26,7 @@ sync-image registry.opensource.zalan.do/acid/spilo-13 $(github-latest-version za
 sync-image registry.opensource.zalan.do/acid/pgbouncer master-16
 
 # nfs
-ver=$(curl -sfL https://raw.githubusercontent.com/wenerme/charts/master/nfs-subdir-external-provisioner/Chart.yaml | grep appVersion | cut -d ':' -f 2 | sed 's/\s//g')
-sync-image k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner v$ver
+sync-image k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner v$(chart-app-version nfs-subdir-external-provisioner)
 
 # argo
 sync-image docker.io/argoproj/argocli $(github-latest-version argoproj/argo-workflows)
@@ -59,13 +57,7 @@ sync-image quay.io/thanos/thanos $ver
 # sync-image gcr.io/google-containers/pause 3.2
 # sync-image k8s.gcr.io/defaultbackend-amd64 1.5
 
-# quay.io/kubernetes-ingress-controller/nginx-ingress-controller
-# sync-image quay.io/kubernetes-ingress-controller/nginx-ingress-controller 0.33.0
-# sync-image us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller v0.34.1
-# sync-image k8s.gcr.io/ingress-nginx/controller v0.41.2
-# sync-image k8s.gcr.io/ingress-nginx/controller v0.43.0
-# sync-image k8s.gcr.io/ingress-nginx/controller v0.44.0
-sync-image k8s.gcr.io/ingress-nginx/controller v0.47.0
+sync-image k8s.gcr.io/ingress-nginx/controller v$(chart-app-version ingress-nginx)
 
 # sync-image gcr.io/google_containers/defaultbackend 1.0
 

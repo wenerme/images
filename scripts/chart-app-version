@@ -1,0 +1,12 @@
+#!/bin/bash
+
+chart-app-version(){
+  set -o pipefail
+  curl -sfL https://raw.githubusercontent.com/wenerme/charts/master/$1/Chart.yaml | grep appVersion | cut -d ':' -f 2 | sed 's/\s//g'
+  local r=$?
+  set +o pipefail
+  return $r
+}
+if [ $(basename $0) = "chart-app-version" ]; then
+  chart-app-version "$@"
+fi
