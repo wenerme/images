@@ -192,3 +192,4 @@
 | quay.io/jetstack/cert-manager-acmesolver | v1.4.1 | jetstack_cert-manager-acmesolver | 2021-08-01 10:45:53 |
 | quay.io/thanos/thanos | v0.22.0 | thanos_thanos | 2021-08-01 10:46:13 |
 | k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner | v4.0.2 | sig-storage_nfs-subdir-external-provisioner | 2021-08-01 17:49:53 |
+| k8s.gcr.io/ingress-nginx/controller | v0.47.0 | ingress-nginx_controller | 2021-08-01 21:33:08 |
