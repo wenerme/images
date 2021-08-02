@@ -244,4 +244,8 @@
 | quay.io/thanos/thanos | v0.22.0 | thanos_thanos | 2021-08-01 10:46:13 |
 | k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner | v4.0.2 | sig-storage_nfs-subdir-external-provisioner | 2021-08-01 17:49:53 |
 | k8s.gcr.io/ingress-nginx/controller | v0.47.0 | ingress-nginx_controller | 2021-08-01 21:33:08 |
+| quay.io/jetstack/cert-manager-controller | v1.3.2 | jetstack_cert-manager-controller | 2021-08-02 14:16:29 |
+| quay.io/jetstack/cert-manager-webhook | v1.3.2 | jetstack_cert-manager-webhook | 2021-08-02 14:16:48 |
+| quay.io/jetstack/cert-manager-cainjector | v1.3.2 | jetstack_cert-manager-cainjector | 2021-08-02 14:17:07 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.3.2 | jetstack_cert-manager-acmesolver | 2021-08-02 14:17:25 |
 
