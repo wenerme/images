@@ -198,3 +198,4 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.3.2 | jetstack_cert-manager-cainjector | 2021-08-02 14:17:07 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.3.2 | jetstack_cert-manager-acmesolver | 2021-08-02 14:17:25 |
 | ghcr.io/dexidp/dex | v2.30.0 | dexidp_dex | 2021-08-03 14:16:26 |
+| k8s.gcr.io/ingress-nginx/controller | v0.48.1 | ingress-nginx_controller | 2021-08-03 16:32:49 |
