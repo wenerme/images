@@ -200,3 +200,6 @@
 | ghcr.io/dexidp/dex | v2.30.0 | dexidp_dex | 2021-08-03 14:16:26 |
 | k8s.gcr.io/ingress-nginx/controller | v0.48.1 | ingress-nginx_controller | 2021-08-03 16:32:49 |
 | k8s.gcr.io/ingress-nginx/controller | v1.0.0-beta.1 | ingress-nginx_controller | 2021-08-03 18:22:37 |
+| docker.io/argoproj/argocli | v3.1.4 | argoproj_argocli | 2021-08-04 02:29:47 |
+| docker.io/argoproj/workflow-controller | v3.1.4 | argoproj_workflow-controller | 2021-08-04 02:30:08 |
+| docker.io/argoproj/argoexec | v3.1.4 | argoproj_argoexec | 2021-08-04 02:30:48 |
