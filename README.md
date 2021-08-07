@@ -261,4 +261,5 @@
 | quay.io/jetstack/cert-manager-webhook | v1.4.3 | jetstack_cert-manager-webhook | 2021-08-06 14:16:50 |
 | quay.io/jetstack/cert-manager-cainjector | v1.4.3 | jetstack_cert-manager-cainjector | 2021-08-06 14:17:08 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.4.3 | jetstack_cert-manager-acmesolver | 2021-08-06 14:17:26 |
+| quay.io/keycloak/keycloak | 15.0.1 | keycloak_keycloak | 2021-08-07 10:18:17 |
 
