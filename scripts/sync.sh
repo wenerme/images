@@ -16,6 +16,7 @@ sync-image gcr.io/kaniko-project/executor $(github-latest-version GoogleContaine
 sync-image gcr.io/kaniko-project/executor $(github-latest-version GoogleContainerTools/kaniko)-debug
 sync-image gcr.io/kaniko-project/executor debug
 sync-image gcr.io/kaniko-project/executor latest
+sync-image gcr.io/k8s-skaffold/skaffold-helpers/busybox latest
 
 # postgres-operator
 sync-image registry.opensource.zalan.do/acid/postgres-operator $(github-latest-version zalando/postgres-operator)
