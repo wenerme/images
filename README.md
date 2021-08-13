@@ -269,4 +269,5 @@
 | docker.io/argoproj/argocli | v3.1.6 | argoproj_argocli | 2021-08-13 00:55:10 |
 | docker.io/argoproj/workflow-controller | v3.1.6 | argoproj_workflow-controller | 2021-08-13 00:55:33 |
 | docker.io/argoproj/argoexec | v3.1.6 | argoproj_argoexec | 2021-08-13 00:56:14 |
+| registry.opensource.zalan.do/acid/pgbouncer | master-16 | acid_pgbouncer | 2021-08-13 02:28:47 |
 
