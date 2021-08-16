@@ -219,3 +219,7 @@
 | docker.io/argoproj/workflow-controller | v3.1.6 | argoproj_workflow-controller | 2021-08-13 00:55:33 |
 | docker.io/argoproj/argoexec | v3.1.6 | argoproj_argoexec | 2021-08-13 00:56:14 |
 | registry.opensource.zalan.do/acid/pgbouncer | master-16 | acid_pgbouncer | 2021-08-13 02:28:47 |
+| quay.io/jetstack/cert-manager-controller | v1.5.1 | jetstack_cert-manager-controller | 2021-08-16 16:29:55 |
+| quay.io/jetstack/cert-manager-webhook | v1.5.1 | jetstack_cert-manager-webhook | 2021-08-16 16:30:15 |
+| quay.io/jetstack/cert-manager-cainjector | v1.5.1 | jetstack_cert-manager-cainjector | 2021-08-16 16:30:36 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.5.1 | jetstack_cert-manager-acmesolver | 2021-08-16 16:30:56 |
