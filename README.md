@@ -282,4 +282,8 @@
 | docker.io/argoproj/argoexec | v3.0.10 | argoproj_argoexec | 2021-08-19 00:49:40 |
 | docker.io/argoproj/argocd | v2.1.0 | argoproj_argocd | 2021-08-20 06:23:18 |
 | quay.io/keycloak/keycloak | 15.0.2 | keycloak_keycloak | 2021-08-20 10:19:19 |
+| quay.io/jetstack/cert-manager-controller | v1.5.2 | jetstack_cert-manager-controller | 2021-08-20 12:29:10 |
+| quay.io/jetstack/cert-manager-webhook | v1.5.2 | jetstack_cert-manager-webhook | 2021-08-20 12:29:31 |
+| quay.io/jetstack/cert-manager-cainjector | v1.5.2 | jetstack_cert-manager-cainjector | 2021-08-20 12:29:52 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.5.2 | jetstack_cert-manager-acmesolver | 2021-08-20 12:30:06 |
 
