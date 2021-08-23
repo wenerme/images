@@ -36,7 +36,7 @@ sync-image docker.io/argoproj/argoexec $(github-latest-version argoproj/argo-wor
 
 # argo-cd
 sync-image docker.io/argoproj/argocd $(github-latest-version argoproj/argo-cd)
-sync-image quay.io/argocdapplicationset/argocd-applicationset $(github-latest-version argoproj-labs/applicationset)
+sync-image quay.io/argoproj/argocd-applicationset $(github-latest-version argoproj-labs/applicationset)
 # argocd use dex
 sync-image ghcr.io/dexidp/dex $(github-latest-version dexidp/dex)
 
