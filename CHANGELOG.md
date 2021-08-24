@@ -237,3 +237,8 @@
 | quay.io/jetstack/cert-manager-acmesolver | v1.5.2 | jetstack_cert-manager-acmesolver | 2021-08-20 12:30:06 |
 | quay.io/argoproj/argocd-applicationset | v0.2.0 | argoproj_argocd-applicationset | 2021-08-23 22:57:41 |
 | k8s.gcr.io/ingress-nginx/controller | v0.49.0 | ingress-nginx_controller | 2021-08-23 22:58:52 |
+| quay.io/jetstack/cert-manager-controller | v1.4.4 | jetstack_cert-manager-controller | 2021-08-24 16:27:55 |
+| quay.io/jetstack/cert-manager-webhook | v1.4.4 | jetstack_cert-manager-webhook | 2021-08-24 16:28:18 |
+| quay.io/jetstack/cert-manager-cainjector | v1.4.4 | jetstack_cert-manager-cainjector | 2021-08-24 16:28:39 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.4.4 | jetstack_cert-manager-acmesolver | 2021-08-24 16:29:00 |
+| k8s.gcr.io/ingress-nginx/controller | v1.0.0 | ingress-nginx_controller | 2021-08-24 16:29:33 |
