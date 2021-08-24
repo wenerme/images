@@ -242,3 +242,7 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.4.4 | jetstack_cert-manager-cainjector | 2021-08-24 16:28:39 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.4.4 | jetstack_cert-manager-acmesolver | 2021-08-24 16:29:00 |
 | k8s.gcr.io/ingress-nginx/controller | v1.0.0 | ingress-nginx_controller | 2021-08-24 16:29:33 |
+| quay.io/jetstack/cert-manager-controller | v1.5.3 | jetstack_cert-manager-controller | 2021-08-24 18:21:17 |
+| quay.io/jetstack/cert-manager-webhook | v1.5.3 | jetstack_cert-manager-webhook | 2021-08-24 18:21:41 |
+| quay.io/jetstack/cert-manager-cainjector | v1.5.3 | jetstack_cert-manager-cainjector | 2021-08-24 18:22:04 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.5.3 | jetstack_cert-manager-acmesolver | 2021-08-24 18:22:20 |
