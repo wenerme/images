@@ -247,3 +247,4 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.5.3 | jetstack_cert-manager-cainjector | 2021-08-24 18:22:04 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.5.3 | jetstack_cert-manager-acmesolver | 2021-08-24 18:22:20 |
 | docker.io/argoproj/argocd | v2.1.1 | argoproj_argocd | 2021-08-25 16:28:40 |
+| registry.opensource.zalan.do/acid/spilo-13 | 2.1-p1 | acid_spilo-13 | 2021-08-27 10:20:22 |
