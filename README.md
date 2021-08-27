@@ -299,4 +299,7 @@
 | quay.io/jetstack/cert-manager-acmesolver | v1.5.3 | jetstack_cert-manager-acmesolver | 2021-08-24 18:22:20 |
 | docker.io/argoproj/argocd | v2.1.1 | argoproj_argocd | 2021-08-25 16:28:40 |
 | registry.opensource.zalan.do/acid/spilo-13 | 2.1-p1 | acid_spilo-13 | 2021-08-27 10:20:22 |
+| registry.opensource.zalan.do/acid/postgres-operator | v1.7.0 | acid_postgres-operator | 2021-08-27 14:16:10 |
+| registry.opensource.zalan.do/acid/logical-backup | v1.7.0 | acid_logical-backup | 2021-08-27 14:16:56 |
+| registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.0 | acid_postgres-operator-ui | 2021-08-27 14:17:59 |
 
