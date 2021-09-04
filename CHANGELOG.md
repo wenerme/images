@@ -252,3 +252,6 @@
 | registry.opensource.zalan.do/acid/logical-backup | v1.7.0 | acid_logical-backup | 2021-08-27 14:16:56 |
 | registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.0 | acid_postgres-operator-ui | 2021-08-27 14:17:59 |
 | docker.io/argoproj/argocd | v2.1.2 | argoproj_argocd | 2021-09-02 18:22:07 |
+| docker.io/argoproj/argocli | v3.1.9 | argoproj_argocli | 2021-09-04 00:54:51 |
+| docker.io/argoproj/workflow-controller | v3.1.9 | argoproj_workflow-controller | 2021-09-04 00:55:08 |
+| docker.io/argoproj/argoexec | v3.1.9 | argoproj_argoexec | 2021-09-04 00:55:43 |
