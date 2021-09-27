@@ -59,7 +59,7 @@ sync-image quay.io/thanos/thanos $ver
 # sync-image k8s.gcr.io/defaultbackend-amd64 1.5
 
 sync-image k8s.gcr.io/ingress-nginx/controller v$(chart-app-version ingress-nginx)
-sync-image k8s.gcr.io/ingress-nginx/kube-webhook-certgen v$(chart-app-version ingress-nginx)
+sync-image k8s.gcr.io/ingress-nginx/kube-webhook-certgen v1.0
 
 # sync-image gcr.io/google_containers/defaultbackend 1.0
 
