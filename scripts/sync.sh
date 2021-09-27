@@ -62,7 +62,7 @@ sync-image k8s.gcr.io/ingress-nginx/controller v$(chart-app-version ingress-ngin
 
 # sync-image gcr.io/google_containers/defaultbackend 1.0
 
-# sync-image docker.io/jettech/kube-webhook-certgen v1.5.0
+sync-image docker.io/jettech/kube-webhook-certgen v1.0
 # sync-image docker.io/jettech/kube-webhook-certgen v1.5.1
 
 # for i in proxy controller debug web grafana cni-plugin; do
