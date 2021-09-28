@@ -319,4 +319,7 @@
 | k8s.gcr.io/ingress-nginx/controller | v1.0.2 | ingress-nginx_controller | 2021-09-27 04:24:43 |
 | k8s.gcr.io/ingress-nginx/kube-webhook-certgen | v1.0 | ingress-nginx_kube-webhook-certgen | 2021-09-27 15:11:43 |
 | quay.io/thanos/thanos | v0.23.0 | thanos_thanos | 2021-09-27 16:29:33 |
+| docker.io/argoproj/argocli | v3.1.13 | argoproj_argocli | 2021-09-28 20:17:53 |
+| docker.io/argoproj/workflow-controller | v3.1.13 | argoproj_workflow-controller | 2021-09-28 20:18:12 |
+| docker.io/argoproj/argoexec | v3.1.13 | argoproj_argoexec | 2021-09-28 20:18:49 |
 
