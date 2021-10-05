@@ -327,4 +327,5 @@
 | quay.io/jetstack/cert-manager-webhook | v1.5.4 | jetstack_cert-manager-webhook | 2021-09-30 18:20:57 |
 | quay.io/jetstack/cert-manager-cainjector | v1.5.4 | jetstack_cert-manager-cainjector | 2021-09-30 18:21:14 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.5.4 | jetstack_cert-manager-acmesolver | 2021-09-30 18:21:27 |
+| quay.io/thanos/thanos | v0.23.1 | thanos_thanos | 2021-10-05 12:28:56 |
 
