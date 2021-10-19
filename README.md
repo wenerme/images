@@ -328,4 +328,9 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.5.4 | jetstack_cert-manager-cainjector | 2021-09-30 18:21:14 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.5.4 | jetstack_cert-manager-acmesolver | 2021-09-30 18:21:27 |
 | quay.io/thanos/thanos | v0.23.1 | thanos_thanos | 2021-10-05 12:28:56 |
+| registry.opensource.zalan.do/acid/spilo-14 | 2.1-p2 | acid_spilo-14 | 2021-10-19 12:49:38 |
+| docker.io/argoproj/argocli | v3.2.0 | argoproj_argocli | 2021-10-19 12:50:12 |
+| docker.io/argoproj/workflow-controller | v3.2.0 | argoproj_workflow-controller | 2021-10-19 12:50:35 |
+| docker.io/argoproj/argoexec | v3.2.0 | argoproj_argoexec | 2021-10-19 12:51:10 |
+| k8s.gcr.io/ingress-nginx/controller | v1.0.4 | ingress-nginx_controller | 2021-10-19 12:52:17 |
 
