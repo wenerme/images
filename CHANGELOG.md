@@ -282,3 +282,6 @@
 | docker.io/argoproj/workflow-controller | v3.2.0 | argoproj_workflow-controller | 2021-10-19 12:50:35 |
 | docker.io/argoproj/argoexec | v3.2.0 | argoproj_argoexec | 2021-10-19 12:51:10 |
 | k8s.gcr.io/ingress-nginx/controller | v1.0.4 | ingress-nginx_controller | 2021-10-19 12:52:17 |
+| docker.io/argoproj/argocli | v3.2.1 | argoproj_argocli | 2021-10-19 22:18:15 |
+| docker.io/argoproj/workflow-controller | v3.2.1 | argoproj_workflow-controller | 2021-10-19 22:18:38 |
+| docker.io/argoproj/argoexec | v3.2.1 | argoproj_argoexec | 2021-10-19 22:19:14 |
