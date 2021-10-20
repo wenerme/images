@@ -286,3 +286,8 @@
 | docker.io/argoproj/workflow-controller | v3.2.1 | argoproj_workflow-controller | 2021-10-19 22:18:38 |
 | docker.io/argoproj/argoexec | v3.2.1 | argoproj_argoexec | 2021-10-19 22:19:14 |
 | docker.io/argoproj/argocd | v2.1.4 | argoproj_argocd | 2021-10-20 01:03:41 |
+| gcr.io/kaniko-project/executor | v1.7.0 | kaniko-project_executor | 2021-10-20 04:22:52 |
+| gcr.io/kaniko-project/executor | v1.7.0-debug | kaniko-project_executor | 2021-10-20 04:23:27 |
+| docker.io/argoproj/argocli | v3.1.14 | argoproj_argocli | 2021-10-20 04:24:34 |
+| docker.io/argoproj/workflow-controller | v3.1.14 | argoproj_workflow-controller | 2021-10-20 04:24:56 |
+| docker.io/argoproj/argoexec | v3.1.14 | argoproj_argoexec | 2021-10-20 04:25:40 |
