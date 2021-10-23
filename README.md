@@ -346,4 +346,5 @@
 | docker.io/argoproj/argocli | v3.2.2 | argoproj_argocli | 2021-10-21 20:19:52 |
 | docker.io/argoproj/workflow-controller | v3.2.2 | argoproj_workflow-controller | 2021-10-21 20:20:16 |
 | docker.io/argoproj/argoexec | v3.2.2 | argoproj_argoexec | 2021-10-21 20:20:54 |
+| quay.io/oauth2-proxy/oauth2-proxy | v7.2.0 | oauth2-proxy_oauth2-proxy | 2021-10-23 10:18:31 |
 
