@@ -303,3 +303,4 @@
 | docker.io/argoproj/argocli | v3.2.3 | argoproj_argocli | 2021-10-27 02:30:07 |
 | docker.io/argoproj/workflow-controller | v3.2.3 | argoproj_workflow-controller | 2021-10-27 02:30:32 |
 | docker.io/argoproj/argoexec | v3.2.3 | argoproj_argoexec | 2021-10-27 02:31:12 |
+| docker.io/argoproj/argocd | v2.1.6 | argoproj_argocd | 2021-10-28 20:25:16 |
