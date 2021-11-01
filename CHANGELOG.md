@@ -304,3 +304,7 @@
 | docker.io/argoproj/workflow-controller | v3.2.3 | argoproj_workflow-controller | 2021-10-27 02:30:32 |
 | docker.io/argoproj/argoexec | v3.2.3 | argoproj_argoexec | 2021-10-27 02:31:12 |
 | docker.io/argoproj/argocd | v2.1.6 | argoproj_argocd | 2021-10-28 20:25:16 |
+| quay.io/jetstack/cert-manager-controller | v1.6.1 | jetstack_cert-manager-controller | 2021-11-01 14:17:38 |
+| quay.io/jetstack/cert-manager-webhook | v1.6.1 | jetstack_cert-manager-webhook | 2021-11-01 14:17:55 |
+| quay.io/jetstack/cert-manager-cainjector | v1.6.1 | jetstack_cert-manager-cainjector | 2021-11-01 14:18:12 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.6.1 | jetstack_cert-manager-acmesolver | 2021-11-01 14:18:22 |
