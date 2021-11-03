@@ -309,3 +309,6 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.6.1 | jetstack_cert-manager-cainjector | 2021-11-01 14:18:12 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.6.1 | jetstack_cert-manager-acmesolver | 2021-11-01 14:18:22 |
 | registry.opensource.zalan.do/acid/spilo-14 | 2.1-p3 | acid_spilo-14 | 2021-11-03 10:20:39 |
+| registry.opensource.zalan.do/acid/postgres-operator | v1.7.1 | acid_postgres-operator | 2021-11-03 20:19:04 |
+| registry.opensource.zalan.do/acid/logical-backup | v1.7.1 | acid_logical-backup | 2021-11-03 20:19:57 |
+| registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.1 | acid_postgres-operator-ui | 2021-11-03 20:21:03 |
