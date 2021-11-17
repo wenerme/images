@@ -40,7 +40,8 @@ sync-image quay.io/argoproj/argocd-applicationset $(github-latest-version argopr
 # argocd use dex
 sync-image ghcr.io/dexidp/dex $(github-latest-version dexidp/dex)
 
-sync-image quay.io/bitnami/sealed-secrets-controller $(github-latest-version bitnami-labs/sealed-secrets)
+# disable for v0.17
+# sync-image quay.io/bitnami/sealed-secrets-controller $(github-latest-version bitnami-labs/sealed-secrets)
 
 ver=$(github-latest-version jetstack/cert-manager)
 sync-image quay.io/jetstack/cert-manager-controller $ver
