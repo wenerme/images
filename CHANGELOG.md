@@ -313,3 +313,6 @@
 | registry.opensource.zalan.do/acid/logical-backup | v1.7.1 | acid_logical-backup | 2021-11-03 20:19:57 |
 | registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.1 | acid_postgres-operator-ui | 2021-11-03 20:21:03 |
 | k8s.gcr.io/ingress-nginx/controller | v1.0.5 | ingress-nginx_controller | 2021-11-17 14:14:45 |
+| docker.io/argoproj/argocli | v3.1.15 | argoproj_argocli | 2021-11-17 20:19:49 |
+| docker.io/argoproj/workflow-controller | v3.1.15 | argoproj_workflow-controller | 2021-11-17 20:20:08 |
+| docker.io/argoproj/argoexec | v3.1.15 | argoproj_argoexec | 2021-11-17 20:20:46 |
