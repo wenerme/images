@@ -312,3 +312,4 @@
 | registry.opensource.zalan.do/acid/postgres-operator | v1.7.1 | acid_postgres-operator | 2021-11-03 20:19:04 |
 | registry.opensource.zalan.do/acid/logical-backup | v1.7.1 | acid_logical-backup | 2021-11-03 20:19:57 |
 | registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.1 | acid_postgres-operator-ui | 2021-11-03 20:21:03 |
+| k8s.gcr.io/ingress-nginx/controller | v1.0.5 | ingress-nginx_controller | 2021-11-17 14:14:45 |
