@@ -320,3 +320,4 @@
 | docker.io/argoproj/workflow-controller | v3.2.4 | argoproj_workflow-controller | 2021-11-18 00:58:29 |
 | docker.io/argoproj/argoexec | v3.2.4 | argoproj_argoexec | 2021-11-18 00:59:01 |
 | docker.io/argoproj/argocd | v2.1.7 | argoproj_argocd | 2021-11-18 01:00:14 |
+| k8s.gcr.io/ingress-nginx/kube-webhook-certgen | v1.1.1 | ingress-nginx_kube-webhook-certgen | 2021-11-18 10:02:35 |
