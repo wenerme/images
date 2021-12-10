@@ -323,3 +323,4 @@
 | k8s.gcr.io/ingress-nginx/kube-webhook-certgen | v1.1.1 | ingress-nginx_kube-webhook-certgen | 2021-11-18 10:02:35 |
 | k8s.gcr.io/ingress-nginx/controller | v1.1.0 | ingress-nginx_controller | 2021-11-24 00:58:37 |
 | k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner | v4.0.2 | sig-storage_nfs-subdir-external-provisioner | 2021-12-05 18:21:25 |
+| quay.io/keycloak/keycloak | 15.1.0 | keycloak_keycloak | 2021-12-10 16:28:24 |
