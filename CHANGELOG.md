@@ -325,3 +325,4 @@
 | k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner | v4.0.2 | sig-storage_nfs-subdir-external-provisioner | 2021-12-05 18:21:25 |
 | quay.io/keycloak/keycloak | 15.1.0 | keycloak_keycloak | 2021-12-10 16:28:24 |
 | docker.io/argoproj/argocd | v2.1.8 | argoproj_argocd | 2021-12-14 01:04:53 |
+| docker.io/argoproj/argocd | v2.2.0 | argoproj_argocd | 2021-12-14 18:23:23 |
