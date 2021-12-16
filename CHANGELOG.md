@@ -326,3 +326,6 @@
 | quay.io/keycloak/keycloak | 15.1.0 | keycloak_keycloak | 2021-12-10 16:28:24 |
 | docker.io/argoproj/argocd | v2.1.8 | argoproj_argocd | 2021-12-14 01:04:53 |
 | docker.io/argoproj/argocd | v2.2.0 | argoproj_argocd | 2021-12-14 18:23:23 |
+| docker.io/argoproj/argocli | v3.2.5 | argoproj_argocli | 2021-12-16 01:00:31 |
+| docker.io/argoproj/workflow-controller | v3.2.5 | argoproj_workflow-controller | 2021-12-16 01:00:54 |
+| docker.io/argoproj/argoexec | v3.2.5 | argoproj_argoexec | 2021-12-16 01:01:31 |
