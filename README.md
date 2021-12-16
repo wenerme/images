@@ -381,4 +381,5 @@
 | docker.io/argoproj/workflow-controller | v3.2.5 | argoproj_workflow-controller | 2021-12-16 01:00:54 |
 | docker.io/argoproj/argoexec | v3.2.5 | argoproj_argoexec | 2021-12-16 01:01:31 |
 | quay.io/bitnami/sealed-secrets-controller | v0.17.1 | bitnami_sealed-secrets-controller | 2021-12-16 12:44:34 |
+| quay.io/argoproj/argocd-applicationset | v0.3.0 | argoproj_argocd-applicationset | 2021-12-16 16:30:49 |
 
