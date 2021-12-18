@@ -383,4 +383,8 @@
 | quay.io/bitnami/sealed-secrets-controller | v0.17.1 | bitnami_sealed-secrets-controller | 2021-12-16 12:44:34 |
 | quay.io/argoproj/argocd-applicationset | v0.3.0 | argoproj_argocd-applicationset | 2021-12-16 16:30:49 |
 | docker.io/argoproj/argocd | v2.2.1 | argoproj_argocd | 2021-12-17 02:37:55 |
+| quay.io/keycloak/keycloak | 16.0.0 | keycloak_keycloak | 2021-12-18 08:21:57 |
+| docker.io/argoproj/argocli | v3.2.6 | argoproj_argocli | 2021-12-18 08:23:28 |
+| docker.io/argoproj/workflow-controller | v3.2.6 | argoproj_workflow-controller | 2021-12-18 08:23:51 |
+| docker.io/argoproj/argoexec | v3.2.6 | argoproj_argoexec | 2021-12-18 08:24:19 |
 
