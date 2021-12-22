@@ -388,4 +388,5 @@
 | docker.io/argoproj/workflow-controller | v3.2.6 | argoproj_workflow-controller | 2021-12-18 08:23:51 |
 | docker.io/argoproj/argoexec | v3.2.6 | argoproj_argoexec | 2021-12-18 08:24:19 |
 | quay.io/keycloak/keycloak | 16.1.0 | keycloak_keycloak | 2021-12-20 16:30:22 |
+| quay.io/thanos/thanos | v0.23.2 | thanos_thanos | 2021-12-22 14:18:40 |
 
