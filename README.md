@@ -389,4 +389,6 @@
 | docker.io/argoproj/argoexec | v3.2.6 | argoproj_argoexec | 2021-12-18 08:24:19 |
 | quay.io/keycloak/keycloak | 16.1.0 | keycloak_keycloak | 2021-12-20 16:30:22 |
 | quay.io/thanos/thanos | v0.23.2 | thanos_thanos | 2021-12-22 14:18:40 |
+| quay.io/oauth2-proxy/oauth2-proxy | v7.2.1 | oauth2-proxy_oauth2-proxy | 2021-12-22 18:21:46 |
+| quay.io/thanos/thanos | v0.24.0 | thanos_thanos | 2021-12-22 18:23:35 |
 
