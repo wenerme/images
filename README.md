@@ -392,4 +392,5 @@
 | quay.io/oauth2-proxy/oauth2-proxy | v7.2.1 | oauth2-proxy_oauth2-proxy | 2021-12-22 18:21:46 |
 | quay.io/thanos/thanos | v0.24.0 | thanos_thanos | 2021-12-22 18:23:35 |
 | docker.io/argoproj/argocd | v2.2.2 | argoproj_argocd | 2022-01-01 08:23:55 |
+| gcr.io/cadvisor/cadvisor | v0.39.3 | cadvisor_cadvisor | 2022-01-06 01:08:15 |
 
