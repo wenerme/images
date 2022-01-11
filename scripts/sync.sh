@@ -48,6 +48,7 @@ sync-image quay.io/jetstack/cert-manager-controller $ver
 sync-image quay.io/jetstack/cert-manager-webhook $ver
 sync-image quay.io/jetstack/cert-manager-cainjector $ver
 sync-image quay.io/jetstack/cert-manager-acmesolver $ver
+sync-image quay.io/jetstack/cert-manager-ctl $ver
 
 ver=$(github-latest-version thanos-io/thanos)
 sync-image quay.io/thanos/thanos $ver
