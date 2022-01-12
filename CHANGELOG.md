@@ -343,3 +343,4 @@
 | docker.io/argoproj/argocd | v2.2.2 | argoproj_argocd | 2022-01-01 08:23:55 |
 | gcr.io/cadvisor/cadvisor | v0.39.3 | cadvisor_cadvisor | 2022-01-06 01:08:15 |
 | quay.io/jetstack/cert-manager-ctl | v1.6.1 | jetstack_cert-manager-ctl | 2022-01-11 14:01:50 |
+| k8s.gcr.io/ingress-nginx/controller | v1.1.1 | ingress-nginx_controller | 2022-01-12 18:23:42 |
