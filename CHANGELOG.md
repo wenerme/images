@@ -344,3 +344,4 @@
 | gcr.io/cadvisor/cadvisor | v0.39.3 | cadvisor_cadvisor | 2022-01-06 01:08:15 |
 | quay.io/jetstack/cert-manager-ctl | v1.6.1 | jetstack_cert-manager-ctl | 2022-01-11 14:01:50 |
 | k8s.gcr.io/ingress-nginx/controller | v1.1.1 | ingress-nginx_controller | 2022-01-12 18:23:42 |
+| quay.io/bitnami/sealed-secrets-controller | v0.17.2 | bitnami_sealed-secrets-controller | 2022-01-13 16:31:00 |
