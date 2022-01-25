@@ -346,3 +346,4 @@
 | k8s.gcr.io/ingress-nginx/controller | v1.1.1 | ingress-nginx_controller | 2022-01-12 18:23:42 |
 | quay.io/bitnami/sealed-secrets-controller | v0.17.2 | bitnami_sealed-secrets-controller | 2022-01-13 16:31:00 |
 | docker.io/argoproj/argocd | v2.2.3 | argoproj_argocd | 2022-01-18 18:24:27 |
+| quay.io/keycloak/keycloak | 16.1.1 | keycloak_keycloak | 2022-01-25 16:26:42 |
