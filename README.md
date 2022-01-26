@@ -398,4 +398,9 @@
 | quay.io/bitnami/sealed-secrets-controller | v0.17.2 | bitnami_sealed-secrets-controller | 2022-01-13 16:31:00 |
 | docker.io/argoproj/argocd | v2.2.3 | argoproj_argocd | 2022-01-18 18:24:27 |
 | quay.io/keycloak/keycloak | 16.1.1 | keycloak_keycloak | 2022-01-25 16:26:42 |
+| quay.io/jetstack/cert-manager-controller | v1.7.0 | jetstack_cert-manager-controller | 2022-01-26 20:18:45 |
+| quay.io/jetstack/cert-manager-webhook | v1.7.0 | jetstack_cert-manager-webhook | 2022-01-26 20:19:05 |
+| quay.io/jetstack/cert-manager-cainjector | v1.7.0 | jetstack_cert-manager-cainjector | 2022-01-26 20:19:24 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.7.0 | jetstack_cert-manager-acmesolver | 2022-01-26 20:19:43 |
+| quay.io/jetstack/cert-manager-ctl | v1.7.0 | jetstack_cert-manager-ctl | 2022-01-26 20:20:05 |
 
