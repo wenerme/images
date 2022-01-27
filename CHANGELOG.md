@@ -352,3 +352,4 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.7.0 | jetstack_cert-manager-cainjector | 2022-01-26 20:19:24 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.7.0 | jetstack_cert-manager-acmesolver | 2022-01-26 20:19:43 |
 | quay.io/jetstack/cert-manager-ctl | v1.7.0 | jetstack_cert-manager-ctl | 2022-01-26 20:20:05 |
+| quay.io/bitnami/sealed-secrets-controller | v0.17.3 | bitnami_sealed-secrets-controller | 2022-01-27 16:27:31 |
