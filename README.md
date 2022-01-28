@@ -404,4 +404,7 @@
 | quay.io/jetstack/cert-manager-acmesolver | v1.7.0 | jetstack_cert-manager-acmesolver | 2022-01-26 20:19:43 |
 | quay.io/jetstack/cert-manager-ctl | v1.7.0 | jetstack_cert-manager-ctl | 2022-01-26 20:20:05 |
 | quay.io/bitnami/sealed-secrets-controller | v0.17.3 | bitnami_sealed-secrets-controller | 2022-01-27 16:27:31 |
+| docker.io/argoproj/argocli | v3.2.7 | argoproj_argocli | 2022-01-28 02:33:19 |
+| docker.io/argoproj/workflow-controller | v3.2.7 | argoproj_workflow-controller | 2022-01-28 02:33:39 |
+| docker.io/argoproj/argoexec | v3.2.7 | argoproj_argoexec | 2022-01-28 02:34:11 |
 
