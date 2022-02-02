@@ -407,4 +407,5 @@
 | docker.io/argoproj/argocli | v3.2.7 | argoproj_argocli | 2022-01-28 02:33:19 |
 | docker.io/argoproj/workflow-controller | v3.2.7 | argoproj_workflow-controller | 2022-01-28 02:33:39 |
 | docker.io/argoproj/argoexec | v3.2.7 | argoproj_argoexec | 2022-01-28 02:34:11 |
+| ghcr.io/dexidp/dex | v2.30.3 | dexidp_dex | 2022-02-02 20:19:20 |
 
