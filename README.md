@@ -409,4 +409,9 @@
 | docker.io/argoproj/argoexec | v3.2.7 | argoproj_argoexec | 2022-01-28 02:34:11 |
 | ghcr.io/dexidp/dex | v2.30.3 | dexidp_dex | 2022-02-02 20:19:20 |
 | docker.io/argoproj/argocd | v2.2.4 | argoproj_argocd | 2022-02-03 22:18:24 |
+| quay.io/jetstack/cert-manager-controller | v1.7.1 | jetstack_cert-manager-controller | 2022-02-04 18:17:45 |
+| quay.io/jetstack/cert-manager-webhook | v1.7.1 | jetstack_cert-manager-webhook | 2022-02-04 18:18:03 |
+| quay.io/jetstack/cert-manager-cainjector | v1.7.1 | jetstack_cert-manager-cainjector | 2022-02-04 18:18:21 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.7.1 | jetstack_cert-manager-acmesolver | 2022-02-04 18:18:33 |
+| quay.io/jetstack/cert-manager-ctl | v1.7.1 | jetstack_cert-manager-ctl | 2022-02-04 18:18:52 |
 
