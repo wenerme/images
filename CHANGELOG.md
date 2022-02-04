@@ -363,3 +363,6 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.7.1 | jetstack_cert-manager-cainjector | 2022-02-04 18:18:21 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.7.1 | jetstack_cert-manager-acmesolver | 2022-02-04 18:18:33 |
 | quay.io/jetstack/cert-manager-ctl | v1.7.1 | jetstack_cert-manager-ctl | 2022-02-04 18:18:52 |
+| docker.io/argoproj/argocli | v3.2.8 | argoproj_argocli | 2022-02-04 22:14:40 |
+| docker.io/argoproj/workflow-controller | v3.2.8 | argoproj_workflow-controller | 2022-02-04 22:14:59 |
+| docker.io/argoproj/argoexec | v3.2.8 | argoproj_argoexec | 2022-02-04 22:15:30 |
