@@ -374,3 +374,4 @@
 | registry.opensource.zalan.do/acid/postgres-operator | v1.7.1 | acid_postgres-operator | 2022-02-05 00:56:00 |
 | registry.opensource.zalan.do/acid/logical-backup | v1.7.1 | acid_logical-backup | 2022-02-05 00:56:55 |
 | registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.1 | acid_postgres-operator-ui | 2022-02-05 00:57:52 |
+| docker.io/argoproj/argocd | v2.2.5 | argoproj_argocd | 2022-02-05 02:18:35 |
