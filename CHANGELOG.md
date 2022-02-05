@@ -366,3 +366,11 @@
 | docker.io/argoproj/argocli | v3.2.8 | argoproj_argocli | 2022-02-04 22:14:40 |
 | docker.io/argoproj/workflow-controller | v3.2.8 | argoproj_workflow-controller | 2022-02-04 22:14:59 |
 | docker.io/argoproj/argoexec | v3.2.8 | argoproj_argoexec | 2022-02-04 22:15:30 |
+| gcr.io/cadvisor/cadvisor | v0.39.3 | cadvisor_cadvisor | 2022-02-05 00:52:11 |
+| quay.io/oauth2-proxy/oauth2-proxy | v7.2.1 | oauth2-proxy_oauth2-proxy | 2022-02-05 00:52:52 |
+| gcr.io/kaniko-project/executor | v1.7.0 | kaniko-project_executor | 2022-02-05 00:53:35 |
+| gcr.io/kaniko-project/executor | v1.7.0-debug | kaniko-project_executor | 2022-02-05 00:54:19 |
+| gcr.io/kaniko-project/executor | debug | kaniko-project_executor | 2022-02-05 00:55:02 |
+| registry.opensource.zalan.do/acid/postgres-operator | v1.7.1 | acid_postgres-operator | 2022-02-05 00:56:00 |
+| registry.opensource.zalan.do/acid/logical-backup | v1.7.1 | acid_logical-backup | 2022-02-05 00:56:55 |
+| registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.1 | acid_postgres-operator-ui | 2022-02-05 00:57:52 |
