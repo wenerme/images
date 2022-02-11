@@ -376,3 +376,4 @@
 | registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.1 | acid_postgres-operator-ui | 2022-02-05 00:57:52 |
 | docker.io/argoproj/argocd | v2.2.5 | argoproj_argocd | 2022-02-05 02:18:35 |
 | ghcr.io/dexidp/dex | v2.31.0 | dexidp_dex | 2022-02-09 01:06:17 |
+| quay.io/keycloak/keycloak | 17.0.0 | keycloak_keycloak | 2022-02-11 20:17:41 |
