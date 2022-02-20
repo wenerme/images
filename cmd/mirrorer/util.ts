@@ -101,11 +101,13 @@ class ImageManifest {
 
 export interface ImageManifestItem {
   host: string;
-  repos: Array<{
-    repo: string;
-    tags: string[];
-    vcs?: string;
-  }>;
+  repos: Array<ImageManifestRepo>;
+}
+
+export interface ImageManifestRepo {
+  repo: string;
+  tags: string[];
+  vcs?: string;
 }
 
 export class ImageName {
@@ -113,10 +115,9 @@ export class ImageName {
   tag: string;
   host: string;
   digest?: string;
-  #raw: string;
-  constructor(raw: string) {
-    const { repo, tag, host, digest } = parseImageName(raw);
-    this.#raw = raw;
+  constructor(raw: string | Image) {
+    const { repo, tag, host, digest } =
+      typeof raw === "string" ? parseImageName(raw) : raw;
     this.repo = repo;
     this.tag = tag;
     this.host = host;
@@ -126,37 +127,20 @@ export class ImageName {
   get org() {
     return this.repo.split("/")[0];
   }
-  get name() {
+  set org(v: string) {
+    const s = this.repo.split("/");
+    s[0] = v;
+    this.repo = s.join("/");
+  }
+  get name(): any {
     return this.repo.split("/").at(-1);
+  }
+  set name(v) {
+    const s = this.repo.split("/");
+    s[s.length - 1] = v;
+    this.repo = s.join("/");
   }
   toString() {
     return buildImageName(this);
   }
-}
-
-function buildCondition(o: any) {
-  if (o === null || o === undefined || o === true) {
-    return () => true;
-  }
-  if (typeof o === "string") {
-    return Function(`"use strict";return (${o})`);
-  }
-  if (typeof o === "object") {
-    return ({ target, context }: any) => {
-      return !Object.entries(o).find(([k, v]) => target[k] !== v);
-    };
-  }
-  return () => false;
-}
-
-interface MappingSpec {
-  when?: any;
-  [k: string]: any;
-}
-function buildApply(o: any) {}
-function buildMapping({ when, ...rest }: MappingSpec) {
-  return {
-    test: buildCondition(when),
-    apply: buildApply(rest),
-  };
 }

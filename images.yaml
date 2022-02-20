@@ -1,0 +1,510 @@
+- host: docker.io
+  repos:
+    - repo: apache/nifi
+      vcs: apache/nifi
+      tags:
+        - 1.15.3
+    - repo: apache/nifi-minifi
+      vcs: apache/nifi-minifi
+      tags:
+        - 0.5.0
+    - repo: apache/nifi-registry
+      vcs: apache/nifi
+      tags:
+        - 1.15.3
+    - repo: argoproj/argocd
+      vcs: argoproj/argo-cd
+      tags:
+        - v1.7.12
+        - v1.7.13
+        - v1.7.14
+        - v1.8.4
+        - v1.8.5
+        - v1.8.6
+        - v1.8.7
+        - v2.0.0
+        - v2.0.1
+        - v2.0.2
+        - v2.0.3
+        - v2.0.4
+        - v2.0.5
+        - v2.1.0
+        - v2.1.1
+        - v2.1.2
+        - v2.1.3
+        - v2.1.4
+        - v2.1.5
+        - v2.1.6
+        - v2.1.7
+        - v2.1.8
+        - v2.2.0
+        - v2.2.1
+        - v2.2.2
+        - v2.2.3
+        - v2.2.4
+        - v2.2.5
+    - repo: argoproj/argocli
+      vcs: argoproj/argo-workflows
+      tags:
+        - v2.12.10
+        - v2.12.11
+        - v2.12.12
+        - v3.0.0
+        - v3.0.1
+        - v3.0.10
+        - v3.0.2
+        - v3.0.3
+        - v3.0.4
+        - v3.0.5
+        - v3.0.6
+        - v3.0.7
+        - v3.0.8
+        - v3.1.1
+        - v3.1.10
+        - v3.1.11
+        - v3.1.12
+        - v3.1.13
+        - v3.1.14
+        - v3.1.15
+        - v3.1.3
+        - v3.1.4
+        - v3.1.5
+        - v3.1.6
+        - v3.1.9
+        - v3.2.0
+        - v3.2.1
+        - v3.2.2
+        - v3.2.3
+        - v3.2.4
+        - v3.2.5
+        - v3.2.6
+        - v3.2.7
+        - v3.2.8
+    - repo: argoproj/argoexec
+      vcs: argoproj/argo-workflows
+      tags:
+        - v2.12.10
+        - v2.12.11
+        - v2.12.12
+        - v2.12.9
+        - v3.0.0
+        - v3.0.1
+        - v3.0.10
+        - v3.0.2
+        - v3.0.3
+        - v3.0.4
+        - v3.0.5
+        - v3.0.6
+        - v3.0.7
+        - v3.0.8
+        - v3.1.1
+        - v3.1.10
+        - v3.1.11
+        - v3.1.12
+        - v3.1.13
+        - v3.1.14
+        - v3.1.15
+        - v3.1.3
+        - v3.1.4
+        - v3.1.5
+        - v3.1.6
+        - v3.1.9
+        - v3.2.0
+        - v3.2.1
+        - v3.2.2
+        - v3.2.3
+        - v3.2.4
+        - v3.2.5
+        - v3.2.6
+        - v3.2.7
+        - v3.2.8
+    - repo: argoproj/workflow-controller
+      vcs: argoproj/argo-workflows
+      tags:
+        - v2.12.10
+        - v2.12.11
+        - v2.12.12
+        - v3.0.0
+        - v3.0.1
+        - v3.0.10
+        - v3.0.2
+        - v3.0.3
+        - v3.0.4
+        - v3.0.5
+        - v3.0.6
+        - v3.0.7
+        - v3.0.8
+        - v3.1.1
+        - v3.1.10
+        - v3.1.11
+        - v3.1.12
+        - v3.1.13
+        - v3.1.14
+        - v3.1.15
+        - v3.1.3
+        - v3.1.4
+        - v3.1.5
+        - v3.1.6
+        - v3.1.9
+        - v3.2.0
+        - v3.2.1
+        - v3.2.2
+        - v3.2.3
+        - v3.2.4
+        - v3.2.5
+        - v3.2.6
+        - v3.2.7
+        - v3.2.8
+    - repo: calico/cni
+      tags:
+        - v3.21.2
+    - repo: calico/kube-controllers
+      tags:
+        - v3.21.2
+    - repo: calico/node
+      tags:
+        - v3.21.2
+    - repo: cloudnativelabs/kube-router
+      tags:
+        - v1.3.2
+    - repo: jettech/kube-webhook-certgen
+      tags:
+        - v1.2.2
+        - v1.5.0
+        - v1.5.1
+- host: gcr.io
+  repos:
+    - repo: cadvisor/cadvisor
+      vcs: google/cadvisor
+      tags:
+        - v0.36.0
+        - v0.37.0
+        - v0.37.5
+        - v0.39.3
+    - repo: google_containers/defaultbackend
+      tags:
+        - '1.0'
+    - repo: google-containers/pause
+      tags:
+        - '3.0'
+        - '3.1'
+        - '3.2'
+    - repo: kaniko-project/executor
+      vcs: GoogleContainerTools/kaniko
+      tags:
+        - debug
+        - v1.3.0
+        - v1.3.0-debug
+        - v1.5.0
+        - v1.5.0-debug
+        - v1.5.1
+        - v1.5.1-debug
+        - v1.5.2
+        - v1.5.2-debug
+        - v1.6.0
+        - v1.6.0-debug
+        - v1.7.0
+        - v1.7.0-debug
+    - repo: linkerd-io/cni-plugin
+      tags:
+        - stable-2.8.1
+    - repo: linkerd-io/controller
+      tags:
+        - stable-2.8.1
+    - repo: linkerd-io/debug
+      tags:
+        - stable-2.8.1
+    - repo: linkerd-io/grafana
+      tags:
+        - stable-2.8.1
+    - repo: linkerd-io/proxy
+      tags:
+        - stable-2.8.1
+    - repo: linkerd-io/proxy-init
+      tags:
+        - v1.3.3
+    - repo: linkerd-io/web
+      tags:
+        - stable-2.8.1
+- host: ghcr.io
+  repos:
+    - repo: dexidp/dex
+      vcs: dexidp/dex
+      tags:
+        - v2.27.0
+        - v2.28.0
+        - v2.28.1
+        - v2.29.0
+        - v2.30.0
+        - v2.30.3
+        - v2.31.0
+- host: k8s.gcr.io
+  repos:
+    - repo: coredns/coredns
+      tags:
+        - v1.7.0
+    - repo: defaultbackend-amd64
+      tags:
+        - '1.5'
+    - repo: ingress-nginx/controller
+      tags:
+        - v0.35.0
+        - v0.41.2
+        - v0.43.0
+        - v0.44.0
+        - v0.46.0
+        - v0.47.0
+        - v0.48.1
+        - v0.49.0
+        - v1.0.0
+        - v1.0.0-beta.1
+        - v1.0.1
+        - v1.0.2
+        - v1.0.4
+        - v1.0.5
+        - v1.1.0
+        - v1.1.1
+    - repo: ingress-nginx/kube-webhook-certgen
+      tags:
+        - v1.0
+        - v1.1.1
+    - repo: kube-proxy
+      tags:
+        - v1.23.3
+    - repo: metrics-server/metrics-server
+      tags:
+        - v0.5.2
+    - repo: pause
+      tags:
+        - 3.6
+    - repo: sig-storage/nfs-subdir-external-provisioner
+      tags:
+        - v4.0.2
+- host: quay.io
+  repos:
+    - repo: argocdapplicationset/argocd-applicationset
+      tags:
+        - v0.1.0
+    - repo: argoproj/argocd-applicationset
+      vcs: argoproj-labs/applicationset
+      tags:
+        - v0.2.0
+        - v0.3.0
+    - repo: bitnami/sealed-secrets-controller
+      vcs: bitnami-labs/sealed-secrets
+      tags:
+        - v0.15.0
+        - v0.16.0
+        - v0.17.1
+        - v0.17.2
+        - v0.17.3
+    - repo: jetstack/cert-manager-acmesolver
+      tags:
+        - v1.0.2
+        - v1.0.3
+        - v1.0.4
+        - v1.1.0
+        - v1.1.1
+        - v1.2.0
+        - v1.3.0
+        - v1.3.0-alpha.0
+        - v1.3.1
+        - v1.3.2
+        - v1.4.0
+        - v1.4.1
+        - v1.4.3
+        - v1.4.4
+        - v1.5.0
+        - v1.5.1
+        - v1.5.2
+        - v1.5.3
+        - v1.5.4
+        - v1.6.0
+        - v1.6.1
+        - v1.7.0
+        - v1.7.1
+    - repo: jetstack/cert-manager-cainjector
+      tags:
+        - v0.16.1
+        - v1.0.0
+        - v1.0.1
+        - v1.0.2
+        - v1.0.3
+        - v1.0.4
+        - v1.1.0
+        - v1.1.1
+        - v1.2.0
+        - v1.3.0
+        - v1.3.0-alpha.0
+        - v1.3.1
+        - v1.3.2
+        - v1.4.0
+        - v1.4.1
+        - v1.4.3
+        - v1.4.4
+        - v1.5.0
+        - v1.5.1
+        - v1.5.2
+        - v1.5.3
+        - v1.5.4
+        - v1.6.0
+        - v1.6.1
+        - v1.7.0
+        - v1.7.1
+    - repo: jetstack/cert-manager-controller
+      tags:
+        - v0.16.1
+        - v1.0.0
+        - v1.0.1
+        - v1.0.2
+        - v1.0.3
+        - v1.0.4
+        - v1.1.0
+        - v1.1.1
+        - v1.2.0
+        - v1.3.0
+        - v1.3.0-alpha.0
+        - v1.3.1
+        - v1.3.2
+        - v1.4.0
+        - v1.4.1
+        - v1.4.3
+        - v1.4.4
+        - v1.5.0
+        - v1.5.1
+        - v1.5.2
+        - v1.5.3
+        - v1.5.4
+        - v1.6.0
+        - v1.6.1
+        - v1.7.0
+        - v1.7.1
+    - repo: jetstack/cert-manager-ctl
+      tags:
+        - v1.6.1
+        - v1.7.0
+        - v1.7.1
+    - repo: jetstack/cert-manager-webhook
+      tags:
+        - v0.16.1
+        - v1.0.0
+        - v1.0.1
+        - v1.0.2
+        - v1.0.3
+        - v1.0.4
+        - v1.1.0
+        - v1.1.1
+        - v1.2.0
+        - v1.3.0
+        - v1.3.0-alpha.0
+        - v1.3.1
+        - v1.3.2
+        - v1.4.0
+        - v1.4.1
+        - v1.4.3
+        - v1.4.4
+        - v1.5.0
+        - v1.5.1
+        - v1.5.2
+        - v1.5.3
+        - v1.5.4
+        - v1.6.0
+        - v1.6.1
+        - v1.7.0
+        - v1.7.1
+    - repo: k0sproject/apiserver-network-proxy-agent
+      tags:
+        - 0.0.27-k0s1
+    - repo: k0sproject/cni-node
+      tags:
+        - 0.1.0
+    - repo: keycloak/keycloak
+      vcs: keycloak/keycloak
+      tags:
+        - 11.0.3
+        - 12.0.1
+        - 12.0.3
+        - 12.0.4
+        - 13.0.0
+        - 13.0.1
+        - 14.0.0
+        - 15.0.1
+        - 15.0.2
+        - 15.1.0
+        - 16.0.0
+        - 16.1.0
+        - 16.1.1
+        - 17.0.0
+    - repo: oauth2-proxy/oauth2-proxy
+      vcs: oauth2-proxy/oauth2-proxy
+      tags:
+        - v7.0.1
+        - v7.1.0
+        - v7.1.1
+        - v7.1.2
+        - v7.1.3
+        - v7.2.0
+        - v7.2.1
+    - repo: thanos/thanos
+      tags:
+        - v0.14.0
+        - v0.15.0
+        - v0.16.0
+        - v0.17.0
+        - v0.17.1
+        - v0.17.2
+        - v0.18.0
+        - v0.19.0
+        - v0.20.0
+        - v0.20.1
+        - v0.20.2
+        - v0.21.0
+        - v0.21.1
+        - v0.22.0
+        - v0.23.0
+        - v0.23.1
+        - v0.23.2
+        - v0.24.0
+- host: registry.opensource.zalan.do
+  repos:
+    - repo: acid/logical-backup
+      vcs: zalando/postgres-operator
+      tags:
+        - v1.6.1
+        - v1.6.2
+        - v1.6.3
+        - v1.7.0
+        - v1.7.1
+    - repo: acid/pgbouncer
+      tags:
+        - master-14
+        - master-16
+    - repo: acid/postgres-operator
+      vcs: zalando/postgres-operator
+      tags:
+        - v1.6.1
+        - v1.6.2
+        - v1.7.0
+        - v1.7.1
+    - repo: acid/postgres-operator-ui
+      vcs: zalando/postgres-operator
+      tags:
+        - v1.6.1
+        - v1.6.2
+        - v1.6.3
+        - v1.7.0
+        - v1.7.1
+    - repo: acid/spilo-13
+      tags:
+        - 2.0-p4
+        - 2.0-p5
+        - 2.0-p6
+        - 2.0-p7
+        - 2.1-p1
+    - repo: acid/spilo-14
+      vcs: zalando/postgres-operator
+      tags:
+        - 2.1-p2
+        - 2.1-p3
+- host: us.gcr.io
+  repos: []

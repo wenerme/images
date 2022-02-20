@@ -14,9 +14,9 @@ sync-image quay.io/oauth2-proxy/oauth2-proxy $(github-latest-version oauth2-prox
 
 sync-image gcr.io/kaniko-project/executor $(github-latest-version GoogleContainerTools/kaniko)
 sync-image gcr.io/kaniko-project/executor $(github-latest-version GoogleContainerTools/kaniko)-debug
-sync-image gcr.io/kaniko-project/executor debug
-sync-image gcr.io/kaniko-project/executor latest
-sync-image gcr.io/k8s-skaffold/skaffold-helpers/busybox latest
+# sync-image gcr.io/kaniko-project/executor debug
+# sync-image gcr.io/kaniko-project/executor latest
+# sync-image gcr.io/k8s-skaffold/skaffold-helpers/busybox latest
 
 # postgres-operator
 sync-image registry.opensource.zalan.do/acid/postgres-operator $(github-latest-version zalando/postgres-operator)

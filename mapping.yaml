@@ -1,0 +1,24 @@
+target:
+  - $when:
+      org: google-containers
+      host: gcr.io
+    org: google_containers
+    # $debug: true
+  - host: registry.cn-hongkong.aliyuncs.com
+    repo: cmi/${repo.replace('/','_')}
+
+source:
+  # - $when:
+  #     org: google-containers
+  #     host: gcr.io
+  #   host: k8s.gcr.io
+  #   repo: ${src.name}
+  # - $when:
+  #     org: google_containers
+  #     host: gcr.io
+  #   host: k8s.gcr.io
+  #   repo: ${src.name}
+  - $when: /(us|uk).gcr.io/.test(host)
+    host: gcr.io
+
+pull: []

@@ -47,4 +47,10 @@
 - 外网推送到 cn-hongkong 比推送到 cn-shanghai 更快
 - 内网拉取 cn-hongkong 和 cn-shanghai 速度区别不大
 
+## Mirroring
+
+- images.yaml - image manifest
+  - -> images.txt - mirrored images list
+  - -> sync.sh - generated sync script from images list
+
 ## Images
