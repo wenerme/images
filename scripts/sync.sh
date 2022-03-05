@@ -27,7 +27,7 @@ sync-image registry.opensource.zalan.do/acid/spilo-14 $(github-latest-version za
 sync-image registry.opensource.zalan.do/acid/pgbouncer master-16
 
 # nfs
-sync-image k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner v$(chart-app-version nfs-subdir-external-provisioner)
+# sync-image k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner v$(chart-app-version nfs-subdir-external-provisioner)
 
 # argo
 sync-image docker.io/argoproj/argocli $(github-latest-version argoproj/argo-workflows)
