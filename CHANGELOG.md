@@ -379,3 +379,4 @@
 | quay.io/keycloak/keycloak | 17.0.0 | keycloak_keycloak | 2022-02-11 20:17:41 |
 | registry.opensource.zalan.do/acid/spilo-14 | 2.1-p4 | acid_spilo-14 | 2022-02-28 12:07:07 |
 | quay.io/argoproj/argocd-applicationset | v0.4.0 | argoproj_argocd-applicationset | 2022-03-08 04:06:11 |
+| docker.io/argoproj/argocd | v2.2.7 | argoproj_argocd | 2022-03-09 02:26:04 |
