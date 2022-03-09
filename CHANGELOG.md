@@ -380,3 +380,4 @@
 | registry.opensource.zalan.do/acid/spilo-14 | 2.1-p4 | acid_spilo-14 | 2022-02-28 12:07:07 |
 | quay.io/argoproj/argocd-applicationset | v0.4.0 | argoproj_argocd-applicationset | 2022-03-08 04:06:11 |
 | docker.io/argoproj/argocd | v2.2.7 | argoproj_argocd | 2022-03-09 02:26:04 |
+| gcr.io/kaniko-project/executor | v1.8.0-debug | kaniko-project_executor | 2022-03-09 22:05:28 |
