@@ -381,3 +381,4 @@
 | quay.io/argoproj/argocd-applicationset | v0.4.0 | argoproj_argocd-applicationset | 2022-03-08 04:06:11 |
 | docker.io/argoproj/argocd | v2.2.7 | argoproj_argocd | 2022-03-09 02:26:04 |
 | gcr.io/kaniko-project/executor | v1.8.0-debug | kaniko-project_executor | 2022-03-09 22:05:28 |
+| quay.io/thanos/thanos | v0.25.1 | thanos_thanos | 2022-03-10 16:06:14 |
