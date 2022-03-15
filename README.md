@@ -441,4 +441,7 @@
 | quay.io/thanos/thanos | v0.25.1 | thanos_thanos | 2022-03-10 16:06:14 |
 | docker.io/argoproj/argocd | v2.3.1 | argoproj_argocd | 2022-03-11 00:18:04 |
 | quay.io/argoproj/argocd-applicationset | v0.4.1 | argoproj_argocd-applicationset | 2022-03-11 04:06:11 |
+| docker.io/argoproj/argocli | v3.3.0 | argoproj_argocli | 2022-03-15 00:15:28 |
+| docker.io/argoproj/workflow-controller | v3.3.0 | argoproj_workflow-controller | 2022-03-15 00:15:49 |
+| docker.io/argoproj/argoexec | v3.3.0 | argoproj_argoexec | 2022-03-15 00:16:23 |
 
