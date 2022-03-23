@@ -450,4 +450,9 @@
 | ghcr.io/dexidp/dex | v2.31.1 | dexidp_dex | 2022-03-22 18:06:29 |
 | docker.io/argoproj/argocd | v2.3.2 | argoproj_argocd | 2022-03-23 02:34:20 |
 | quay.io/keycloak/keycloak | 17.0.1 | keycloak_keycloak | 2022-03-23 10:07:04 |
+| quay.io/jetstack/cert-manager-controller | v1.6.3 | jetstack_cert-manager-controller | 2022-03-23 18:06:06 |
+| quay.io/jetstack/cert-manager-webhook | v1.6.3 | jetstack_cert-manager-webhook | 2022-03-23 18:06:24 |
+| quay.io/jetstack/cert-manager-cainjector | v1.6.3 | jetstack_cert-manager-cainjector | 2022-03-23 18:06:43 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.6.3 | jetstack_cert-manager-acmesolver | 2022-03-23 18:07:01 |
+| quay.io/jetstack/cert-manager-ctl | v1.6.3 | jetstack_cert-manager-ctl | 2022-03-23 18:07:20 |
 
