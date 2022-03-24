@@ -403,3 +403,4 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.7.2 | jetstack_cert-manager-cainjector | 2022-03-23 22:06:27 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.7.2 | jetstack_cert-manager-acmesolver | 2022-03-23 22:06:44 |
 | quay.io/jetstack/cert-manager-ctl | v1.7.2 | jetstack_cert-manager-ctl | 2022-03-23 22:07:02 |
+| quay.io/thanos/thanos | v0.25.2 | thanos_thanos | 2022-03-24 14:06:20 |
