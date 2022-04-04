@@ -406,3 +406,4 @@
 | quay.io/thanos/thanos | v0.25.2 | thanos_thanos | 2022-03-24 14:06:20 |
 | docker.io/argoproj/argocd | v2.3.3 | argoproj_argocd | 2022-03-30 02:35:22 |
 | quay.io/bitnami/sealed-secrets-controller | v0.17.4 | bitnami_sealed-secrets-controller | 2022-03-31 14:06:04 |
+| registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.1 | acid_postgres-operator-ui | 2022-04-04 06:09:13 |
