@@ -408,3 +408,8 @@
 | quay.io/bitnami/sealed-secrets-controller | v0.17.4 | bitnami_sealed-secrets-controller | 2022-03-31 14:06:04 |
 | registry.opensource.zalan.do/acid/postgres-operator-ui | v1.7.1 | acid_postgres-operator-ui | 2022-04-04 06:09:13 |
 | gcr.io/kaniko-project/executor | v1.8.1-debug | kaniko-project_executor | 2022-04-05 16:05:21 |
+| quay.io/jetstack/cert-manager-controller | v1.8.0 | jetstack_cert-manager-controller | 2022-04-05 20:06:29 |
+| quay.io/jetstack/cert-manager-webhook | v1.8.0 | jetstack_cert-manager-webhook | 2022-04-05 20:06:48 |
+| quay.io/jetstack/cert-manager-cainjector | v1.8.0 | jetstack_cert-manager-cainjector | 2022-04-05 20:07:07 |
+| quay.io/jetstack/cert-manager-acmesolver | v1.8.0 | jetstack_cert-manager-acmesolver | 2022-04-05 20:07:26 |
+| quay.io/jetstack/cert-manager-ctl | v1.8.0 | jetstack_cert-manager-ctl | 2022-04-05 20:07:47 |
