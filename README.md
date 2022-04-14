@@ -470,4 +470,5 @@
 | quay.io/jetstack/cert-manager-cainjector | v1.8.0 | jetstack_cert-manager-cainjector | 2022-04-05 20:07:07 |
 | quay.io/jetstack/cert-manager-acmesolver | v1.8.0 | jetstack_cert-manager-acmesolver | 2022-04-05 20:07:26 |
 | quay.io/jetstack/cert-manager-ctl | v1.8.0 | jetstack_cert-manager-ctl | 2022-04-05 20:07:47 |
+| registry.opensource.zalan.do/acid/spilo-14 | 2.1-p5 | acid_spilo-14 | 2022-04-14 12:07:31 |
 
