@@ -21,7 +21,7 @@ jobs:
 
     - name: login
       run: |
-        docker login -u ${{ secrets.ALI_REGISTRY_USER }} -p ${{ secrets.ALI_REGISTRY_PASSWORD }} registry.cn-shanghai.aliyuncs.com
+        #docker login -u ${{ secrets.ALI_REGISTRY_USER }} -p ${{ secrets.ALI_REGISTRY_PASSWORD }} registry.cn-shanghai.aliyuncs.com
         docker login -u ${{ secrets.ALI_REGISTRY_USER }} -p ${{ secrets.ALI_REGISTRY_PASSWORD }} registry.cn-hongkong.aliyuncs.com
 
     - name: synching
